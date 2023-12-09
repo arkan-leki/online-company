@@ -1079,6 +1079,14 @@
             this.pictureBox135 = new System.Windows.Forms.PictureBox();
             this.pictureBox136 = new System.Windows.Forms.PictureBox();
             this.tabPage38 = new System.Windows.Forms.TabPage();
+            this.label543 = new System.Windows.Forms.Label();
+            this.dateTimePicker87 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.label544 = new System.Windows.Forms.Label();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.label547 = new System.Windows.Forms.Label();
+            this.pictureBox187 = new System.Windows.Forms.PictureBox();
+            this.pictureBox188 = new System.Windows.Forms.PictureBox();
             this.materialSingleLineTextField17 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.label380 = new System.Windows.Forms.Label();
             this.label381 = new System.Windows.Forms.Label();
@@ -1409,14 +1417,6 @@
             this.notifyIcon3 = new System.Windows.Forms.NotifyIcon(this.components);
             this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label543 = new System.Windows.Forms.Label();
-            this.dateTimePicker87 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.label544 = new System.Windows.Forms.Label();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.label547 = new System.Windows.Forms.Label();
-            this.pictureBox187 = new System.Windows.Forms.PictureBox();
-            this.pictureBox188 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -1649,6 +1649,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox136)).BeginInit();
             this.tabPage38.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox187)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox188)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataamerback)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox137)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox138)).BeginInit();
@@ -1733,8 +1735,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox147)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox187)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox188)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -14353,6 +14353,90 @@
             this.tabPage38.TabIndex = 39;
             this.tabPage38.Text = "tabPage38";
             // 
+            // label543
+            // 
+            this.label543.AutoSize = true;
+            this.label543.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label543.Location = new System.Drawing.Point(994, 202);
+            this.label543.Name = "label543";
+            this.label543.Size = new System.Drawing.Size(37, 16);
+            this.label543.TabIndex = 545;
+            this.label543.Text = "بەروار";
+            // 
+            // dateTimePicker87
+            // 
+            this.dateTimePicker87.CustomFormat = "yyyy/MM/dd";
+            this.dateTimePicker87.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker87.Location = new System.Drawing.Point(844, 245);
+            this.dateTimePicker87.Name = "dateTimePicker87";
+            this.dateTimePicker87.Size = new System.Drawing.Size(191, 20);
+            this.dateTimePicker87.TabIndex = 544;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Location = new System.Drawing.Point(844, 88);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(187, 24);
+            this.comboBox15.TabIndex = 543;
+            // 
+            // label544
+            // 
+            this.label544.AutoSize = true;
+            this.label544.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label544.Location = new System.Drawing.Point(991, 54);
+            this.label544.Name = "label544";
+            this.label544.Size = new System.Drawing.Size(40, 16);
+            this.label544.TabIndex = 542;
+            this.label544.Text = "بریکار";
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "سلێمانی",
+            "هەولێر",
+            "کەلار"});
+            this.comboBox16.Location = new System.Drawing.Point(844, 159);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(186, 21);
+            this.comboBox16.TabIndex = 541;
+            // 
+            // label547
+            // 
+            this.label547.AutoSize = true;
+            this.label547.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label547.Location = new System.Drawing.Point(997, 130);
+            this.label547.Name = "label547";
+            this.label547.Size = new System.Drawing.Size(34, 16);
+            this.label547.TabIndex = 540;
+            this.label547.Text = "کۆگا";
+            // 
+            // pictureBox187
+            // 
+            this.pictureBox187.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox187.Image = global::online.Properties.Resources.edit1;
+            this.pictureBox187.Location = new System.Drawing.Point(834, 541);
+            this.pictureBox187.Name = "pictureBox187";
+            this.pictureBox187.Size = new System.Drawing.Size(210, 61);
+            this.pictureBox187.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox187.TabIndex = 539;
+            this.pictureBox187.TabStop = false;
+            this.pictureBox187.Click += new System.EventHandler(this.pictureBox187_Click_1);
+            // 
+            // pictureBox188
+            // 
+            this.pictureBox188.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox188.Image = global::online.Properties.Resources.Group_56;
+            this.pictureBox188.Location = new System.Drawing.Point(834, 483);
+            this.pictureBox188.Name = "pictureBox188";
+            this.pictureBox188.Size = new System.Drawing.Size(210, 50);
+            this.pictureBox188.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox188.TabIndex = 538;
+            this.pictureBox188.TabStop = false;
+            this.pictureBox188.Click += new System.EventHandler(this.pictureBox188_Click);
+            // 
             // materialSingleLineTextField17
             // 
             this.materialSingleLineTextField17.Depth = 0;
@@ -14512,6 +14596,7 @@
             this.dataamerback.TimeFilter = false;
             this.dataamerback.SortStringChanged += new System.EventHandler(this.dataamerback_SortStringChanged);
             this.dataamerback.FilterStringChanged += new System.EventHandler(this.dataamerback_FilterStringChanged);
+            this.dataamerback.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataamerback_CellFormatting);
             this.dataamerback.SelectionChanged += new System.EventHandler(this.dataamerback_SelectionChanged);
             this.dataamerback.DoubleClick += new System.EventHandler(this.dataamerback_DoubleClick);
             this.dataamerback.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataamerback_KeyDown);
@@ -17770,6 +17855,7 @@
             this.advancedDataGridView12.Size = new System.Drawing.Size(802, 558);
             this.advancedDataGridView12.TabIndex = 374;
             this.advancedDataGridView12.TimeFilter = false;
+            this.advancedDataGridView12.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.advancedDataGridView12_CellFormatting);
             this.advancedDataGridView12.SelectionChanged += new System.EventHandler(this.advancedDataGridView12_SelectionChanged);
             this.advancedDataGridView12.DoubleClick += new System.EventHandler(this.advancedDataGridView12_DoubleClick);
             this.advancedDataGridView12.KeyDown += new System.Windows.Forms.KeyEventHandler(this.advancedDataGridView12_KeyDown);
@@ -18278,90 +18364,6 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // label543
-            // 
-            this.label543.AutoSize = true;
-            this.label543.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label543.Location = new System.Drawing.Point(994, 202);
-            this.label543.Name = "label543";
-            this.label543.Size = new System.Drawing.Size(37, 16);
-            this.label543.TabIndex = 545;
-            this.label543.Text = "بەروار";
-            // 
-            // dateTimePicker87
-            // 
-            this.dateTimePicker87.CustomFormat = "yyyy/MM/dd";
-            this.dateTimePicker87.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker87.Location = new System.Drawing.Point(844, 245);
-            this.dateTimePicker87.Name = "dateTimePicker87";
-            this.dateTimePicker87.Size = new System.Drawing.Size(191, 20);
-            this.dateTimePicker87.TabIndex = 544;
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(844, 88);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(187, 24);
-            this.comboBox15.TabIndex = 543;
-            // 
-            // label544
-            // 
-            this.label544.AutoSize = true;
-            this.label544.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label544.Location = new System.Drawing.Point(991, 54);
-            this.label544.Name = "label544";
-            this.label544.Size = new System.Drawing.Size(40, 16);
-            this.label544.TabIndex = 542;
-            this.label544.Text = "بریکار";
-            // 
-            // comboBox16
-            // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
-            "سلێمانی",
-            "هەولێر",
-            "کەلار"});
-            this.comboBox16.Location = new System.Drawing.Point(844, 159);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(186, 21);
-            this.comboBox16.TabIndex = 541;
-            // 
-            // label547
-            // 
-            this.label547.AutoSize = true;
-            this.label547.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label547.Location = new System.Drawing.Point(997, 130);
-            this.label547.Name = "label547";
-            this.label547.Size = new System.Drawing.Size(34, 16);
-            this.label547.TabIndex = 540;
-            this.label547.Text = "کۆگا";
-            // 
-            // pictureBox187
-            // 
-            this.pictureBox187.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox187.Image = global::online.Properties.Resources.edit1;
-            this.pictureBox187.Location = new System.Drawing.Point(834, 541);
-            this.pictureBox187.Name = "pictureBox187";
-            this.pictureBox187.Size = new System.Drawing.Size(210, 61);
-            this.pictureBox187.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox187.TabIndex = 539;
-            this.pictureBox187.TabStop = false;
-            this.pictureBox187.Click += new System.EventHandler(this.pictureBox187_Click_1);
-            // 
-            // pictureBox188
-            // 
-            this.pictureBox188.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox188.Image = global::online.Properties.Resources.Group_56;
-            this.pictureBox188.Location = new System.Drawing.Point(834, 483);
-            this.pictureBox188.Name = "pictureBox188";
-            this.pictureBox188.Size = new System.Drawing.Size(210, 50);
-            this.pictureBox188.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox188.TabIndex = 538;
-            this.pictureBox188.TabStop = false;
-            this.pictureBox188.Click += new System.EventHandler(this.pictureBox188_Click);
-            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -18649,6 +18651,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox136)).EndInit();
             this.tabPage38.ResumeLayout(false);
             this.tabPage38.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox187)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox188)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataamerback)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox137)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox138)).EndInit();
@@ -18764,8 +18768,6 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox187)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox188)).EndInit();
             this.ResumeLayout(false);
 
         }

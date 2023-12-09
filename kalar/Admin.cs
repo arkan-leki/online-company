@@ -10853,5 +10853,35 @@ namespace online
             ob.change_datagridview_picker(advancedDataGridView12, dateTimePicker86, 3);
 
         }
+
+        private void advancedDataGridView12_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            foreach (DataGridViewRow row in advancedDataGridView12.Rows)
+                // do sonmthind
+
+                if (Convert.ToString(row.Cells[5].Value).Equals("قبوڵنەکراو"))
+                {
+                    if (row.Index <= advancedDataGridView12.RowCount - 1)
+                    {
+                        row.DefaultCellStyle.BackColor = Color.Red;
+                        row.DefaultCellStyle.ForeColor = Color.White;
+                    }
+                }
+        }
+
+        private void dataamerback_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            foreach (DataGridViewRow row in dataamerback.Rows)
+                // do sonmthind
+
+                if (Convert.ToString(row.Cells[3].Value).Equals("قبوڵنەکراو"))
+                {
+                    if (row.Index <= dataamerback.RowCount - 1)
+                    {
+                        row.DefaultCellStyle.BackColor = Color.Red;
+                        row.DefaultCellStyle.ForeColor = Color.White;
+                    }
+                }
+        }
     }
 }

@@ -7672,6 +7672,7 @@ namespace online
                     kogafield.SelectedText = koga;
                     comboBox9.SelectedText = koga;
                     brykarfield.SelectedText = cus;
+                    barwarf.Text = DateTime.Now.ToString("yyyy/MM/dd");
                 }
             }
 
@@ -7916,8 +7917,9 @@ namespace online
         private void metroButton3_Click_1(object sender, EventArgs e)
         {
             materialTabControl1.SelectedIndex = 37;
-            ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid");
+            ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت', customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  group by wasl;");
             ob.sum(label385, dataamerback, 2);
+            ob.comb(comboBox15, "SELECT * FROM customer", "cid", "cname");
         }
 
         private void materialSingleLineTextField13_TextChanged_1(object sender, EventArgs e)
@@ -8002,13 +8004,13 @@ namespace online
         {
             if (materialSingleLineTextField17.Text != "")
             {
+                ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت,customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid and customer.cname like '" + materialSingleLineTextField17.Text + "%' group by wasl;");
 
-                ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid and customer.cname like '" + materialSingleLineTextField17.Text + "%'");
                 ob.sum(label385, dataamerback, 2);
             }
             else
             {
-                ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid");
+                ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  group by wasl;");
                 ob.sum(label385, dataamerback, 2);
 
             }
@@ -8018,13 +8020,13 @@ namespace online
         {
             if (materialSingleLineTextField45.Text != "")
             {
-                ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid and wasl like '" + materialSingleLineTextField45.Text + "%'");
+                ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid and customer.cname like '" + materialSingleLineTextField45.Text + "%' group by wasl;");
                 ob.sum(label385, dataamerback, 2);
 
             }
             else
             {
-                ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid");
+                ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  group by wasl;");
                 ob.sum(label385, dataamerback, 2);
 
             }
@@ -8032,7 +8034,8 @@ namespace online
 
         private void pictureBox137_Click(object sender, EventArgs e)
         {
-            ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid and barwar between '" + dateTimePicker49.Text + "' and '" + dateTimePicker50.Text + "'");
+            ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت', customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid and barwar between '" + dateTimePicker49.Text + "' and '" + dateTimePicker50.Text + "' group by wasl;");
+
             ob.sum(label385, dataamerback, 2);
         }
 
@@ -8199,7 +8202,7 @@ namespace online
 
         private void dataamerback_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Delete)
+           /* if (e.KeyCode == Keys.Delete)
             {
                 try
                 {
@@ -8256,7 +8259,7 @@ namespace online
 
 
                 }
-            }
+            }*/
         }
 
         private void dataamerback_DoubleClick(object sender, EventArgs e)
@@ -8266,48 +8269,30 @@ namespace online
                 if (dataamerback.SelectedRows.Count != 0)
                 {
                     int i = dataamerback.SelectedRows[0].Index;
-                    int id = Convert.ToInt32(dataamerback.Rows[i].Cells[0].Value.ToString());
+                   // int id = Convert.ToInt32(dataamerback.Rows[i].Cells[0].Value.ToString());
+                    String waslda = dataamerback.Rows[i].Cells[0].Value.ToString();
+                    String koga = dataamerback.Rows[i].Cells[5].Value.ToString();
+                    String amer = dataamerback.Rows[i].Cells[1].Value.ToString();
 
-                    String stat = dataamerback.Rows[i].Cells[5].Value.ToString();
-                    if (stat != "قبوڵکراو")
-                    {
+                    String cus = dataamerback.Rows[i].Cells[4].Value.ToString();
+                    String date = dataamerback.Rows[i].Cells[3].Value.ToString();
+                    materialTabControl1.SelectedIndex = 50;
+                    ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + waslda + "'");
+                    ob.sum(label545, advancedDataGridView12, 2);
+                    ob.comb(comboBox18, "SELECT * FROM customer", "cid", "cname");
+                    ob.comb(comboBox20, "SELECT * FROM amer", "aid", "aname");
+                    wasl55.Text = waslda;
+                    comboBox20.ResetText();
+                    comboBox18.ResetText();
+                    comboBox19.ResetText();
 
-                        if (MessageBox.Show("دڵنیای لەقبوڵکردن؟", "قبوڵکردن", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                        {
+                    comboBox19.SelectedText = amer;
 
-                            con.Open();
-                            MySqlCommand mss = new MySqlCommand("SELECT * FROM `amer_garawa` WHERE `id`='" + id + "'", con);
-                            MySqlDataReader rd = mss.ExecuteReader();
-                            String adad = "";
-                            String amer = "";
-                            String cus = "";
-                            String wasl = "";
-                            String dates = "";
-                            String maxzan = "";
-                            while (rd.Read())
-                            {
-                                adad = rd.GetString("number");
-                                amer = rd.GetString("aid");
-                                cus = rd.GetString("cus");
-                                wasl = rd.GetString("wasl");
-                                dates = rd.GetString("barwar");
-                                maxzan = rd.GetString("maxzan");
-                            }
-                            con.Close();
-                            ob.insert_del_up("UPDATE `amer_garawa` SET `state`='قبوڵکراو' WHERE `id`='" + id + "'");
-                            ob.insert_del_up("call insert_storage_amer('" + amer + "','" + adad + "','" + DateTime.Now.ToString("yyyy/MM/dd") + "')");
-                            ob.insert_del_up("call delete_storage_amer_customer('" + amer + "','" + adad + "','" + cus + "')");
-                            ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid");
-                            ob.sum(label385, dataamerback, 2);
-
-                        }
-                        else
-                        {
-                            ob.table(dataamerback, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid");
-                            ob.sum(label385, dataamerback, 2);
-                        }
-                    }
+                    comboBox19.SelectedText = koga;
+                    comboBox18.SelectedText = cus;
+                    dateTimePicker86.Text = DateTime.Parse(date).ToString("yyyy/MM/dd");
                 }
+                
             }
             catch (Exception)
             {
@@ -8411,7 +8396,82 @@ namespace online
             }
             else
             {
-                ob.table(advancedDataGridView2, "select aname as 'جۆری ئامێر',(select COALESCE(sum(num),0) From amer_hato WHERE amer_hato.aid=amer.aid and maxzan='" + comboBox10.Text + "' and amer_hato.dates BETWEEN '" + dateTimePicker53.Text + "' and '" + dateTimePicker54.Text + "') as 'ئامێری هاتوو',(select COALESCE(sum(adad),0) From dawakary_amer_view WHERE dawakary_amer_view.arid=amer.aid and dawakary_amer_view.state='قبوڵکراو' and maxzan='" + comboBox10.Text + "' and dawakary_amer_view.barwar BETWEEN '" + dateTimePicker53.Text + "' and '" + dateTimePicker54.Text + "') as 'ئامێری ڕۆشتوو بۆ بریکار',(select COALESCE(sum(num),0) From froshtn_amer,customer WHERE froshtn_amer.aid=amer.aid and froshtn_amer.cid=customer.cid and customer.city='" + comboBox10.Text + "' and froshtn_amer.dates BETWEEN '" + dateTimePicker53.Text + "' and '" + dateTimePicker54.Text + "') as 'ئامێری فرۆشراوی بریکار',((select COALESCE(sum(adad),0) From dawakary_amer_view WHERE dawakary_amer_view.arid=amer.aid and dawakary_amer_view.state='قبوڵکراو' and maxzan='" + comboBox10.Text + "' and dawakary_amer_view.barwar BETWEEN '" + dateTimePicker53.Text + "' and '" + dateTimePicker54.Text + "')-((select COALESCE(sum(num),0) From froshtn_amer,customer WHERE froshtn_amer.aid=amer.aid and froshtn_amer.cid=customer.cid and customer.city='" + comboBox10.Text + "' and froshtn_amer.dates BETWEEN '" + dateTimePicker53.Text + "' and '" + dateTimePicker54.Text + "')+(select COALESCE(sum(number),0) From amer_garawa WHERE amer_garawa.state='قبوڵکراو' and amer_garawa.aid=amer.aid and maxzan='" + comboBox10.Text + "' and amer_garawa.barwar BETWEEN '" + dateTimePicker53.Text + "' and '" + dateTimePicker54.Text + "'))) as 'کۆگا' from amer");
+                ob.table(
+                    advancedDataGridView2,
+                    @"
+    SELECT
+        aname AS 'جۆری ئامێر',
+        (
+(
+            SELECT COALESCE(SUM(num), 0)
+            FROM amer_hato
+            WHERE amer_hato.aid = amer.aid
+                AND maxzan = '" + comboBox10.Text + @"'
+                AND amer_hato.dates BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+        )
++
+(   
+            SELECT COALESCE(SUM(number), 0)
+            FROM amer_bo_koga
+            WHERE amer_bo_koga.aid = amer.aid
+                AND koga = '" + comboBox10.Text + @"'
+                AND amer_bo_koga.dates BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+        )
+) AS 'ئامێری هاتوو',
+        (
+            SELECT COALESCE(SUM(adad), 0)
+            FROM dawakary_amer_view
+            WHERE dawakary_amer_view.arid = amer.aid
+                AND dawakary_amer_view.state = 'قبوڵکراو'
+                AND maxzan = '" + comboBox10.Text + @"'
+                AND dawakary_amer_view.barwar BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+        ) AS 'ئامێری داواکراوی بریکار',
+        (
+            SELECT COALESCE(SUM(num), 0)
+            FROM froshtn_amer, customer
+            WHERE froshtn_amer.aid = amer.aid
+                AND froshtn_amer.cid = customer.cid
+                AND customer.city = '" + comboBox10.Text + @"'
+                AND froshtn_amer.dates BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+        ) AS 'ئامێری فرۆشراوی بریکار',
+        (
+                    SELECT COALESCE(SUM(number), 0)
+                    FROM amer_garawa
+                    WHERE amer_garawa.state = 'قبوڵکراو'
+                        AND amer_garawa.aid = amer.aid
+                        AND maxzan = '" + comboBox10.Text + @"'
+                        AND amer_garawa.barwar BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+        ) AS  'ئامێری گەڕاوەی بریکار',
+        (
+            (
+                SELECT COALESCE(SUM(adad), 0)
+                FROM dawakary_amer_view
+                WHERE dawakary_amer_view.arid = amer.aid
+                    AND dawakary_amer_view.state = 'قبوڵکراو'
+                    AND maxzan = '" + comboBox10.Text + @"'
+                    AND dawakary_amer_view.barwar BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+            ) -
+            (
+                (
+                    SELECT COALESCE(SUM(num), 0)
+                    FROM froshtn_amer, customer
+                    WHERE froshtn_amer.aid = amer.aid
+                        AND froshtn_amer.cid = customer.cid
+                        AND customer.city = '" + comboBox10.Text + @"'
+                        AND froshtn_amer.dates BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+                ) +
+                (
+                    SELECT COALESCE(SUM(number), 0)
+                    FROM amer_garawa
+                    WHERE amer_garawa.state = 'قبوڵکراو'
+                        AND amer_garawa.aid = amer.aid
+                        AND maxzan = '" + comboBox10.Text + @"'
+                        AND amer_garawa.barwar BETWEEN '" + dateTimePicker53.Text + @"' AND '" + dateTimePicker54.Text + @"'
+                )
+            )
+        ) AS 'کۆگا'
+    FROM amer"
+                );
 
             }
             //con.Open();
@@ -10362,6 +10422,7 @@ namespace online
             ob.change_datagridview_textfild(datagridview12, addadfield, 2);
             ob.change_datagridview_combo(datagridview12, brykarfield, 5);
             ob.change_datagridview_combo(datagridview12, kogafield, 7);
+            ob.change_datagridview_combo(datagridview12, haletbox, 6);
 
             ob.change_datagridview(datagridview12, textBox13, 4);
 
@@ -10385,10 +10446,11 @@ namespace online
                         String cusValue = brykarfield.SelectedValue.ToString();
                         String waslValue = waslfield.Text;
                         String maxzanValue = kogafield.Text;
+                        String halet = haletbox.SelectedText.ToString();
 
                         // Construct the SQL query
                         String updateQuery = $"UPDATE dawakary_amer SET amer = {amerValue}, adad = {adadValue}, barwar = '{barwarValue.ToString("yyyy-MM-dd")}', " +
-                                       $"note = '{noteValue}', cus = {cusValue}, wasl = {waslValue}, maxzan = '{maxzanValue}' " +
+                                       $"note = '{noteValue}', cus = {cusValue}, wasl = {waslValue}, maxzan = '{maxzanValue}', state = '{halet}' " +
                                        $"WHERE id = {idToUpdate}";
                         ob.insert_del_up(updateQuery);
                         //ob.a(this.Controls);
@@ -10411,9 +10473,8 @@ namespace online
         {
             try
             {
-                if (datagridview12.SelectedRows.Count != 0)
-                {
-                    int i = datagridview12.SelectedRows[0].Index;
+               
+                    //int i = datagridview12.SelectedRows[0].Index;
                     String amerValue = amerfield.SelectedValue.ToString();
                     String adadValue = addadfield.Text;
                     DateTime barwarValue = DateTime.Parse(barwarf.Text);
@@ -10421,11 +10482,16 @@ namespace online
                     String cusValue = brykarfield.SelectedValue.ToString();
                     String waslValue = waslfield.Text;
                     String maxzanValue = kogafield.Text;
+                    String halet = haletbox.SelectedText.ToString();
+                    if (halet=="")
+                    {
+                        halet = "قبوڵنەکراو";
+                    }
 
                     // Construct the SQL query for INSERT
                     String insertQuery = $"INSERT INTO dawakary_amer (amer, adad, barwar, note, cus, wasl, maxzan,state) " +
                                          $"VALUES ({amerValue}, {adadValue}, '{barwarValue.ToString("yyyy-MM-dd")}', " +
-                                         $"'{noteValue}', {cusValue}, {waslValue}, '{maxzanValue}', 'قبولنەکراوە')";
+                                         $"'{noteValue}', {cusValue}, {waslValue}, '{maxzanValue}', '{halet}')";
 
                     ob.insert_del_up(insertQuery);
                     ob.table(datagridview12, "SELECT `id` as '#', `aname` as 'ئامێر', `adad` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', " +
@@ -10435,7 +10501,7 @@ namespace online
                     messageboxsuc obb = new messageboxsuc();
                     obb.Show();
 
-                }
+                
             }
             catch (Exception)
             {
@@ -10448,26 +10514,19 @@ namespace online
         {
             try
             {
-                if (data36.SelectedRows.Count != 0)
-                {
                     string query = "SELECT wasl FROM new_system_online.dawakary_amer_view ORDER BY wasl DESC LIMIT 1;";
 
 
                     con.Open();
                     MySqlCommand mss = new MySqlCommand(query, con);
                     MySqlDataReader rd = mss.ExecuteReader();
-                    String adad = "";
-                    String amer = "";
-                    String cus = "";
                     int waslda = 0;
                     while (rd.Read())
                     {
-                        adad = rd.GetString("number");
-                        amer = rd.GetString("aid");
-                        cus = rd.GetString("cus");
-                        waslda = rd.GetInt32("wasl")+1;
+                        waslda = rd.GetInt32("wasl");
                     }
                     con.Close();
+                    waslda += 1;
 
                     string newCid = comboBox14.SelectedValue.ToString();  // Replace with the new value for cname
                     string newMaxzan = comboBox13.Text; // Replace with the new value for maxzan
@@ -10483,7 +10542,7 @@ namespace online
                     kogafield.SelectedText = newMaxzan;
                     comboBox9.SelectedText = newMaxzan;
                     brykarfield.SelectedValue = newCid;
-                }
+               
             }
 
             catch (Exception)
@@ -10491,6 +10550,308 @@ namespace online
 
 
             }
+        }
+
+        private void pictureBox187_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox186_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedIndex = 37;
+        }
+
+        private void advancedDataGridView12_DoubleClick(object sender, EventArgs e)
+        {
+            if (advancedDataGridView12.SelectedRows.Count != 0)
+                {
+                    int i = advancedDataGridView12.SelectedRows[0].Index;
+                    int id = Convert.ToInt32(advancedDataGridView12.Rows[i].Cells[0].Value.ToString());
+
+                    String stat = advancedDataGridView12.Rows[i].Cells[5].Value.ToString();
+                    if (stat != "قبوڵکراو")
+                    {
+
+                        if (MessageBox.Show("دڵنیای لەقبوڵکردن؟", "قبوڵکردن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+
+                            con.Open();
+                            MySqlCommand mss = new MySqlCommand("SELECT * FROM `amer_garawa` WHERE `id`='" + id + "'", con);
+                            MySqlDataReader rd = mss.ExecuteReader();
+                            String adad = "";
+                            String amer = "";
+                            String cus = "";
+                            String wasl = "";
+                            String dates = "";
+                            String maxzan = "";
+                            while (rd.Read())
+                            {
+                                adad = rd.GetString("number");
+                                amer = rd.GetString("aid");
+                                cus = rd.GetString("cus");
+                                wasl = rd.GetString("wasl");
+                                dates = rd.GetString("barwar");
+                                maxzan = rd.GetString("maxzan");
+                            }
+                            con.Close();
+                            ob.insert_del_up("UPDATE `amer_garawa` SET `state`='قبوڵکراو' WHERE `id`='" + id + "'");
+                            ob.insert_del_up("call insert_storage_amer('" + amer + "','" + adad + "','" + DateTime.Now.ToString("yyyy/MM/dd") + "')");
+                            ob.insert_del_up("call delete_storage_amer_customer('" + amer + "','" + adad + "','" + cus + "')");
+                        ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + wasl + "'");
+                        ob.sum(label545, advancedDataGridView12, 2);
+
+                    }
+                        else
+                        {
+                        ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + wasl + "'");
+                        ob.sum(label545, advancedDataGridView12, 2);
+
+                    }
+                    }
+                }
+        }
+
+        private void advancedDataGridView12_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Delete)
+            {
+                try
+                {
+                    if (advancedDataGridView12.SelectedRows.Count != 0)
+                    {
+                        int i = advancedDataGridView12.SelectedRows[0].Index;
+                        int id = Convert.ToInt32(advancedDataGridView12.Rows[i].Cells[0].Value.ToString());
+
+                        String stat = advancedDataGridView12.Rows[i].Cells[5].Value.ToString();
+                        if (MessageBox.Show("دڵنیای لە سڕینەوە؟", "سڕینەوە", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            if (stat == "قبوڵکراو")
+                            {
+                                con.Open();
+                                MySqlCommand mss = new MySqlCommand("SELECT * FROM `amer_garawa` WHERE `id`='" + id + "'", con);
+                                MySqlDataReader rd = mss.ExecuteReader();
+                                String adad = "";
+                                String amer = "";
+                                String cus = "";
+                                String wasl = "";
+                                String dates = "";
+                                while (rd.Read())
+                                {
+                                    adad = rd.GetString("number");
+                                    amer = rd.GetString("aid");
+                                    cus = rd.GetString("cus");
+                                    wasl = rd.GetString("wasl");
+                                    dates = rd.GetString("barwar");
+
+                                }
+                                con.Close();
+                                ob.insert_del_up("call delete_storage_amer('" + amer + "','" + adad + "')");
+                                ob.insert_del_up("call insert_storage_amer_customer('" + amer + "','" + adad + "','" + cus + "','" + DateTime.Now.ToString("yyyy/MM/dd") + "')");
+                                ob.insert_del_up("DELETE FROM `amer_garawa` WHERE id='" + id + "'");
+                                
+                                ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + wasl + "'");
+                                ob.sum(label545, advancedDataGridView12, 2);
+                            }
+                            else
+                            {
+                                ob.insert_del_up("DELETE FROM `amer_garawa` WHERE id='" + id + "'");
+                                ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + wasl + "'");
+                                ob.sum(label545, advancedDataGridView12, 2);
+                            }
+                        }
+                        else
+                        {
+                            ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + wasl + "'");
+                            ob.sum(label545, advancedDataGridView12, 2);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+
+
+                }
+            }
+        }
+
+        private void pictureBox188_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string query = "SELECT wasl FROM new_system_online.amer_garawa ORDER BY wasl DESC LIMIT 1;";
+
+
+                con.Open();
+                MySqlCommand mss = new MySqlCommand(query, con);
+                MySqlDataReader rd = mss.ExecuteReader();
+                int waslda = 0;
+                while (rd.Read())
+                {
+                    waslda = rd.GetInt32("wasl");
+                }
+                con.Close();
+                waslda += 1;
+
+                string newCid = comboBox15.SelectedValue.ToString();  // Replace with the new value for cname
+                string newMaxzan = comboBox16.Text; // Replace with the new value for maxzan
+                string newBarwar = dateTimePicker87.Text;
+                materialTabControl1.SelectedIndex = 50;
+                ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + waslda + "'");
+                ob.sum(label545, advancedDataGridView12, 2);
+                ob.comb(comboBox18, "SELECT * FROM customer", "cid", "cname");
+                ob.comb(comboBox20, "SELECT * FROM amer", "aid", "aname");
+                wasl55.Text = waslda.ToString();
+           
+                comboBox19.SelectedText = newMaxzan;
+                comboBox18.SelectedValue = newCid;
+                dateTimePicker86.Text = DateTime.Parse(newBarwar).ToString("yyyy/MM/dd");
+
+            }
+
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+        private void pictureBox190_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                //int i = datagridview12.SelectedRows[0].Index;
+                String amerValue = comboBox20.SelectedValue.ToString();
+                String adadValue = addad33.Text;
+                DateTime barwarValue = DateTime.Parse(dateTimePicker86.Text);
+                String noteValue = textBox15.Text;
+                String cusValue = comboBox18.SelectedValue.ToString();
+                String waslValue = wasl55.Text;
+                String maxzanValue = comboBox19.Text;
+                String halet = comboBox17.SelectedText.ToString();
+                if (halet == "")
+                {
+                    halet = "قبوڵنەکراو";
+                }
+
+                // Construct the SQL query for INSERT
+                String insertQuery = $"INSERT INTO amer_garawa (aid, number, barwar, tebene, cus, wasl, maxzan,state) " +
+                                     $"VALUES ({amerValue}, {adadValue}, '{barwarValue.ToString("yyyy-MM-dd")}', " +
+                                     $"'{noteValue}', {cusValue}, {waslValue}, '{maxzanValue}', '{halet}')";
+
+                ob.insert_del_up(insertQuery);
+                ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + waslValue + "'");
+                ob.sum(label545, advancedDataGridView12, 2);
+                messageboxsuc obb = new messageboxsuc();
+                obb.Show();
+
+
+            }
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+        private void pictureBox189_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("دڵنیای؟", "هەڵگرتن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                try
+                {
+                    if (advancedDataGridView12.SelectedRows.Count != 0)
+                    {
+                        int i = advancedDataGridView12.SelectedRows[0].Index;
+                        String idToUpdate = advancedDataGridView12.Rows[i].Cells[0].Value.ToString();
+                        String amerValue = comboBox20.SelectedValue.ToString();
+                        String adadValue = addad33.Text;
+                        DateTime barwarValue = DateTime.Parse(dateTimePicker86.Text);
+                        String noteValue = textBox15.Text;
+                        String cusValue = comboBox18.SelectedValue.ToString();
+                        String waslValue = wasl55.Text;
+                        String maxzanValue = comboBox19.Text;
+                        String halet = comboBox17.SelectedText.ToString();
+                        if (halet == "")
+                        {
+                            halet = "قبوڵنەکراو";
+                        }                        
+                        // Construct the SQL query
+                        String updateQuery = $"UPDATE amer_garawa SET aid = {amerValue}, number = {adadValue}, barwar = '{barwarValue.ToString("yyyy-MM-dd")}', " +
+                                       $"tebene = '{noteValue}', cus = {cusValue}, wasl = {waslValue}, maxzan = '{maxzanValue}', state = '{halet}' " +
+                                       $"WHERE id = {idToUpdate}";
+                        ob.insert_del_up(updateQuery);
+                        //ob.a(this.Controls);
+                        ob.table(advancedDataGridView12, "SELECT `id` as '#', `aname` as 'ئامێر', `number` as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی', `state` as 'حاڵەت', `wasl` as 'وەسڵ',customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  and  `wasl` = '" + waslValue + "'");
+                        ob.sum(label545, advancedDataGridView12, 2);
+                        messageboxsuc obb = new messageboxsuc();
+                        obb.Show();
+                    }
+                }
+                catch (Exception)
+                {
+
+
+                }
+
+            }
+        }
+
+        private void pictureBox187_Click_1(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("دڵنیای؟", "هەڵگرتن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                try
+                {
+                    if (dataamerback.SelectedRows.Count != 0)
+                    {
+                        int i = dataamerback.SelectedRows[0].Index;
+                        String wasl = dataamerback.Rows[i].Cells[0].Value.ToString();
+                        string newCid = comboBox15.SelectedValue.ToString();  // Replace with the new value for cname
+                        string newMaxzan = comboBox16.Text; // Replace with the new value for maxzan
+                        string newBarwar = dateTimePicker87.Text;
+                        string updateQuery = "UPDATE amer_garawa " +
+                             "SET `maxzan` = '" + newMaxzan + "'" + ", `cus` = '" + newCid + "', `barwar` = '" + newBarwar + "'" +
+                             "WHERE `wasl` = '" + wasl + "'";
+                        ob.insert_del_up(updateQuery);
+                        //ob.a(this.Controls);
+                        ob.table(dataamerback, "SELECT `wasl` as  'وەسڵ', sum(`number`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `state` as 'حاڵەت', customer.cname as 'بریکار',amer_garawa.maxzan as 'کۆگا' FROM `amer_garawa`,amer,customer where amer_garawa.aid=amer.aid and amer_garawa.cus=customer.cid  group by wasl;");
+                        ob.sum(label385, dataamerback, 2);
+                        messageboxsuc obb = new messageboxsuc();
+                        obb.Show();
+                    }
+                }
+                catch (Exception)
+                {
+
+
+                }
+
+            }
+        }
+
+        private void dataamerback_SelectionChanged(object sender, EventArgs e)
+        {
+            ob.change_datagridview_combo(dataamerback, comboBox15, 4);
+            ob.change_datagridview_combo(dataamerback, comboBox16, 5);
+            ob.change_datagridview_picker(dataamerback, dateTimePicker87, 2);
+        }
+
+        private void advancedDataGridView12_SelectionChanged(object sender, EventArgs e)
+        {
+
+            ob.change_datagridview_textfild(advancedDataGridView12, addad33, 2);
+            ob.change_datagridview_textfild(advancedDataGridView12, wasl55, 6);
+            ob.change_datagridview_combo(advancedDataGridView12, comboBox17, 5);
+            ob.change_datagridview_combo(advancedDataGridView12, comboBox18, 7);
+            ob.change_datagridview_combo(advancedDataGridView12, comboBox19, 8);
+            ob.change_datagridview_combo(advancedDataGridView12, comboBox20, 1);
+
+            ob.change_datagridview(advancedDataGridView12, textBox15, 4);
+
+            ob.change_datagridview_picker(advancedDataGridView12, dateTimePicker86, 3);
+
         }
     }
 }

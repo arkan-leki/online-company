@@ -46,11 +46,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("RudawRegular", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(153, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(219, 27);
+            this.label2.Size = new System.Drawing.Size(191, 24);
             this.label2.TabIndex = 7;
             this.label2.Text = "نرخی دۆلاری ڕۆژ دیاری بکە";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -70,7 +70,8 @@
             this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox1.CustomButton.UseSelectable = true;
             this.metroTextBox1.CustomButton.Visible = false;
-            this.metroTextBox1.Lines = new string[0];
+            this.metroTextBox1.Lines = new string[] {
+        "155000"};
             this.metroTextBox1.Location = new System.Drawing.Point(136, 91);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
@@ -82,6 +83,7 @@
             this.metroTextBox1.ShortcutsEnabled = true;
             this.metroTextBox1.Size = new System.Drawing.Size(247, 23);
             this.metroTextBox1.TabIndex = 44;
+            this.metroTextBox1.Text = "155000";
             this.metroTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));

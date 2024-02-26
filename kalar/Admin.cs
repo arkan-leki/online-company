@@ -17,12 +17,13 @@ using Microsoft.VisualBasic;
 using Classonlinecompany;
 using NPOI.SS.Formula.Functions;
 using NPOI.Util;
+using static NPOI.HSSF.Util.HSSFColor;
 
 namespace online
 {
     public partial class Admin : Form
     {
-        double dolar = draw.dolar;
+        double dolar = online.draw.dolar;
         public static String waslka = "";
         public static String wasla = "";
         public static String waslm = "";
@@ -1494,7 +1495,7 @@ namespace online
                     }
 
 
-                    sumpd.Text = (Convert.ToDouble(sump.Text) * draw.dolar).ToString();
+                    sumpd.Text = (Convert.ToDouble(sump.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -1502,7 +1503,7 @@ namespace online
                     if (price.Text != "" && number.Text != "")
                     {
                         sumpd.Text = (Convert.ToDouble(price.Text) * Convert.ToDouble(number.Text)).ToString();
-                        sump.Text = (Convert.ToDouble(sumpd.Text) / draw.dolar).ToString();
+                        sump.Text = (Convert.ToDouble(sumpd.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -1537,7 +1538,7 @@ namespace online
                     }
 
 
-                    sumpd.Text = (Convert.ToDouble(sump.Text) * draw.dolar).ToString();
+                    sumpd.Text = (Convert.ToDouble(sump.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -1545,7 +1546,7 @@ namespace online
                     if (price.Text != "" && number.Text != "")
                     {
                         sumpd.Text = (Convert.ToDouble(price.Text) * Convert.ToDouble(number.Text)).ToString();
-                        sump.Text = (Convert.ToDouble(sumpd.Text) / draw.dolar).ToString();
+                        sump.Text = (Convert.ToDouble(sumpd.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -1866,7 +1867,7 @@ namespace online
             materialTabControl1.SelectedIndex = 34;
             ob.comb(comboBox14, "SELECT * FROM customer", "cid", "cname");
             //  ob.table(datagridview12, "SELECT `id` as '#', `aname` as 'ئامێر', `adad` as 'عەدەد', `barwar` as 'بەروار', `note` as 'تێبینی', `cname` as 'بریکار', `state` as 'حاڵەت', `wasl` as 'وەسڵ' FROM `dawakary_amer_view`");
-            ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',`maxzan` as 'کۆگا',`wasl` as 'وەسڵ' FROM `dawakary_amer_view` group by wasl");
+            ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',`maxzan` as 'کۆگا',`wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` group by wasl");
             ob.count(label365, data36, 2);
 
         }
@@ -2023,7 +2024,7 @@ namespace online
             if (sumpf.Text != "")
             {
 
-                sumpdf.Text = (Convert.ToDouble(sumpf.Text) / draw.dolar).ToString();
+                sumpdf.Text = (Convert.ToDouble(sumpf.Text) / online.draw.dolar).ToString();
             }
             else
             {
@@ -3734,7 +3735,7 @@ namespace online
                 if (sumpb.Text != "")
                 {
 
-                    sumpdb.Text = (Convert.ToDouble(sumpb.Text) / draw.dolar).ToString();
+                    sumpdb.Text = (Convert.ToDouble(sumpb.Text) / online.draw.dolar).ToString();
                 }
                 else
                 {
@@ -4766,7 +4767,7 @@ namespace online
                 }
                 else
                 {
-                    nrx = Convert.ToDouble(nrxfcus.Text) / draw.dolar;
+                    nrx = Convert.ToDouble(nrxfcus.Text) / online.draw.dolar;
                 }
                 double amou = 0;
                 int dif = Convert.ToInt16(difference.Days) + 1;
@@ -5436,7 +5437,9 @@ namespace online
         double qarzt = 0;
         private void pictureBox109_Click(object sender, EventArgs e)
         {
-            ob.table(data30, "SELECT `brid` AS '#', `num` AS 'عەدەد', `price` AS 'نرخ', `sumprice` AS 'کۆی نرخ',mbrekar as 'پارەی بریکار',(`sumprice`-mbrekar) as 'ئەنجام', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەروار', balance.types AS 'جۆری کارت',(SELECT Coalesce(sum(`num`),0) AS 'sumget' FROM `balance_roshtu_view` where balance_roshtu_view.bbid=froshtn_kart.bid and balance_roshtu_view.cc=froshtn_kart.cid and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "') as 'کارتی وەرگیراو',(select COALESCE(sum(number),0)  from storage_kart_view_customer where storage_kart_view_customer.bid=froshtn_kart.bid and storage_kart_view_customer.cusid=froshtn_kart.cid) as 'کارتی کۆگا',tebene AS 'تێبینی' FROM `froshtn_kart`,balance,customer WHERE froshtn_kart.bid=balance.bid and froshtn_kart.cid=customer.cid and froshtn_kart.cid='" + comboBox4.SelectedValue.ToString() + "' and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'");
+            ob.table(data30, "SELECT `brid` AS '#', `num` AS 'عەدەد', `price` AS 'نرخ', `sumprice` AS 'کۆی نرخ',mbrekar as 'پارەی بریکار',(`sumprice`-mbrekar) as 'ئەنجام', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەروار', balance.types AS 'جۆری کارت',(SELECT Coalesce(sum(`num`),0) AS 'sumget' FROM `balance_roshtu_view` where balance_roshtu_view.bbid=froshtn_kart.bid and balance_roshtu_view.cc=froshtn_kart.cid and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "') as 'کارتی وەرگیراو',(select COALESCE(sum(number),0)  from storage_kart_view_customer where storage_kart_view_customer.bid=froshtn_kart.bid and storage_kart_view_customer.cusid=froshtn_kart.cid) as 'کارتی کۆگا',tebene AS 'تێبینی' FROM `froshtn_kart`,balance,customer WHERE froshtn_kart.bid=balance.bid and froshtn_kart.cid=customer.cid and froshtn_kart.cid='" + comboBox4.SelectedValue.ToString() + "' and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'  " +
+                "UNION ALL SELECT  id AS '#',  0 AS 'عەدەد',  0 AS 'نرخ',  0 AS 'کۆی نرخ', 0 AS 'پارەی بریکار', -amount AS 'ئەنجام',  DATE_FORMAT(barwar, '%Y/%m/%d') AS 'بەروار',  'پارەی دراو ' AS 'جۆری کارت',  0 AS 'کارتی وەرگیراو',  0 AS 'کارتی کۆگا',  tebene AS 'تێبینی'  FROM  exchange_balance where kid = " + comboBox4.SelectedValue.ToString() + " and  barwar between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'"+
+                "UNION ALL SELECT  id AS '#',  0 AS 'عەدەد',  0 AS 'نرخ',  0 AS 'کۆی نرخ', 0 AS 'پارەی بریکار', amount AS 'ئەنجام',  DATE_FORMAT(barwar, '%Y/%m/%d') AS 'بەروار',  ' پارەئ وەرگیراو' AS 'جۆری کارت',  0 AS 'کارتی وەرگیراو',  0 AS 'کارتی کۆگا',  tebene AS 'تێبینی'  FROM  exchange_balance where cus = " + comboBox4.SelectedValue.ToString() + " and  barwar between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'");
             ob.sum(label286, data30, 1);
             ob.sum(label497, data30, 4);
             ob.sum(label284, data30, 5);
@@ -5451,9 +5454,6 @@ namespace online
 
             }
             con.Close();
-
-
-
             con.Open();
 
             MySqlCommand mget = new MySqlCommand("SELECT Coalesce(sum(`num`),0) AS 'sumget' FROM `balance_roshtu_view` where cc='" + comboBox4.SelectedValue.ToString() + "' and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'", con);
@@ -5462,6 +5462,27 @@ namespace online
             {
 
                 label157.Text = rget.GetString("sumget");
+
+            }
+            con.Close();
+            con.Open();
+            MySqlCommand mget22 = new MySqlCommand("SELECT Coalesce(sum(`amount`),0) AS 'sumget' FROM `exchange_balance` where kid='" + comboBox4.SelectedValue.ToString() + "' and barwar between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'", con);
+            MySqlDataReader rget22 = mget22.ExecuteReader();
+            while (rget22.Read())
+            {
+
+                drag.Text = rget22.GetString("sumget");
+
+            }
+            con.Close();
+
+            con.Open();
+            MySqlCommand mget2 = new MySqlCommand("SELECT Coalesce(sum(`amount`),0) AS 'sumget' FROM `exchange_balance` where cus='" + comboBox4.SelectedValue.ToString() + "' and barwar between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'", con);
+            MySqlDataReader rget2 = mget2.ExecuteReader();
+            while (rget2.Read())
+            {
+
+                warg.Text = rget2.GetString("sumget");
 
             }
             con.Close();
@@ -5487,9 +5508,10 @@ namespace online
             con.Close();
 
             double ss = Convert.ToDouble(label292.Text) + Convert.ToDouble(label288.Text);
-
-            double mawa = Convert.ToDouble(label284.Text) - ss;
+            double aged = Convert.ToDouble(warg.Text) - Convert.ToDouble(drag.Text);
+            double mawa = Convert.ToDouble(label284.Text)  - ss;
             label290.Text = mawa.ToString();
+            label292.Text = (Convert.ToDouble(label292.Text)).ToString();
 
         }
 
@@ -5528,7 +5550,10 @@ namespace online
             con.Open();
 
             int cou = 1;
-            MySqlCommand mdd = new MySqlCommand("SELECT `brid` AS '#', `num` AS 'num', `price` AS 'price', `sumprice` AS 'sumprice',mbrekar,(`sumprice`-mbrekar) as 'anjam', DATE_FORMAT(dates, '%Y/%m/%d') AS 'dates', balance.types AS 'ty',(SELECT Coalesce(sum(`num`),0) AS 'sumget' FROM `balance_roshtu_view` where balance_roshtu_view.bbid=froshtn_kart.bid and balance_roshtu_view.cc=froshtn_kart.cid and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "') as 'war',(select COALESCE(sum(number),0)  from storage_kart_view_customer where storage_kart_view_customer.bid=froshtn_kart.bid and storage_kart_view_customer.cusid=froshtn_kart.cid) as 'koga',tebene AS 'tebene' FROM `froshtn_kart`,balance,customer WHERE froshtn_kart.bid=balance.bid and froshtn_kart.cid=customer.cid and froshtn_kart.cid='" + comboBox4.SelectedValue.ToString() + "' and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'", con);
+            MySqlCommand mdd = new MySqlCommand("SELECT `brid` AS '#', `num` AS 'num', `price` AS 'price', `sumprice` AS 'sumprice',mbrekar,(`sumprice`-mbrekar) as 'anjam', DATE_FORMAT(dates, '%Y/%m/%d') AS 'dates', balance.types AS 'ty',(SELECT Coalesce(sum(`num`),0) AS 'sumget' FROM `balance_roshtu_view` where balance_roshtu_view.bbid=froshtn_kart.bid and balance_roshtu_view.cc=froshtn_kart.cid and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "') as 'war',(select COALESCE(sum(number),0)  from storage_kart_view_customer where storage_kart_view_customer.bid=froshtn_kart.bid and storage_kart_view_customer.cusid=froshtn_kart.cid) as 'koga',tebene AS 'tebene' FROM `froshtn_kart`,balance,customer WHERE froshtn_kart.bid=balance.bid and froshtn_kart.cid=customer.cid and froshtn_kart.cid='" + comboBox4.SelectedValue.ToString() + "' and dates between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'"
+                 +
+                "UNION ALL SELECT  id AS '#',  0 AS 'عەدەد',  0 AS 'نرخ',  0 AS 'کۆی نرخ', 0 AS 'پارەی بریکار', -amount AS 'ئەنجام',  DATE_FORMAT(barwar, '%Y/%m/%d') AS 'بەروار',  'پارەی دراو ' AS 'جۆری کارت',  0 AS 'کارتی وەرگیراو',  0 AS 'کارتی کۆگا',  tebene AS 'تێبینی'  FROM  exchange_balance where kid = " + comboBox4.SelectedValue.ToString() + " and  barwar between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'" +
+                "UNION ALL SELECT  id AS '#',  0 AS 'عەدەد',  0 AS 'نرخ',  0 AS 'کۆی نرخ', 0 AS 'پارەی بریکار', amount AS 'ئەنجام',  DATE_FORMAT(barwar, '%Y/%m/%d') AS 'بەروار',  ' پارەئ وەرگیراو' AS 'جۆری کارت',  0 AS 'کارتی وەرگیراو',  0 AS 'کارتی کۆگا',  tebene AS 'تێبینی'  FROM  exchange_balance where cus = " + comboBox4.SelectedValue.ToString() + " and  barwar between '" + dateTimePicker30.Text + "' and '" + dateTimePicker31.Text + "'", con);
             MySqlDataReader rdd = mdd.ExecuteReader();
             if (rdd.HasRows)
             {
@@ -6169,9 +6194,12 @@ namespace online
 
         private void button1_Click(object sender, EventArgs e)
         {
+            bool dinar = checkBox2.Checked;
+            //MessageBox.Show("The CheckBox is " + (dinar ? "checked." : "not checked."));
             easyHTMLReports1.Clear();
+            easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >for information technology<br> electronic supplies <br> internet services</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -6193,7 +6221,7 @@ namespace online
 
             con.Close();
             easyHTMLReports1.AddString("<h2 align=right style='color:cyan; margin-top:-110px'><i>Invoice</i></h2>");
-            easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + dwasl.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
+            easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + dwasl.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br><br> </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
             easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
@@ -6237,9 +6265,13 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ or<br>Bank transfer to IQ account with the following details</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Bank Name:Trade Bank of republic of Iraq <br>Account Name:Online Co.<br>Account Number IQD:0023-008889-001<br>Account Number USD:0023-008889-002<</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Account Number IQD:0023-008889-001<br>IBAN NO: IQ98 TARIQ 9780 2300 8889 001 <br> Account Number USD:0023-008889-002<br>IBAN NO: 25160000023008889002<br>Swift Code: TRIQIQBAXXX</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>Ghareb Rashid Abdulqader<br>009647713297399-009647711551194<br>acc@onlineco.net-gharib@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddString("<p align=right style='font-size:14px;color:blue;'> Accountant / " + Form1.us + "<br> </p>");
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.addf("<h4 align=center style='font-size:14px;'>   Kalar Bazar - Talari M. Mahmoud -  3nd floor Sulaymaniyah, IRAQ -    Tel: 07711550366 - 07502478020</h4>");
+
             easyHTMLReports1.ShowPrintPreviewDialog();
 
 
@@ -6358,7 +6390,7 @@ namespace online
             if (sumpd.Text != "")
             {
 
-                sump.Text = (Convert.ToDouble(sumpd.Text) / draw.dolar).ToString();
+                sump.Text = (Convert.ToDouble(sumpd.Text) / online.draw.dolar).ToString();
             }
             else
             {
@@ -6439,7 +6471,7 @@ namespace online
                     }
 
 
-                    materialSingleLineTextField46.Text = (Convert.ToDouble(materialSingleLineTextField47.Text) * draw.dolar).ToString();
+                    materialSingleLineTextField46.Text = (Convert.ToDouble(materialSingleLineTextField47.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -6447,7 +6479,7 @@ namespace online
                     if (adadmbp.Text != "" && nrxmbp.Text != "")
                     {
                         materialSingleLineTextField46.Text = (Convert.ToDouble(nrxmbp.Text) * Convert.ToDouble(adadmbp.Text)).ToString();
-                        materialSingleLineTextField47.Text = (Convert.ToDouble(materialSingleLineTextField46.Text) / draw.dolar).ToString();
+                        materialSingleLineTextField47.Text = (Convert.ToDouble(materialSingleLineTextField46.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -6717,7 +6749,7 @@ namespace online
                         }
                         else
                         {
-                            nrx = Convert.ToDouble(nrxfcus.Text) / draw.dolar;
+                            nrx = Convert.ToDouble(nrxfcus.Text) / online.draw.dolar;
                         }
                         double amou = 0;
                         int dif = Convert.ToInt16(difference.Days) + 1;
@@ -6837,7 +6869,7 @@ namespace online
                     }
 
 
-                    materialSingleLineTextField46.Text = (Convert.ToDouble(materialSingleLineTextField47.Text) * draw.dolar).ToString();
+                    materialSingleLineTextField46.Text = (Convert.ToDouble(materialSingleLineTextField47.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -6845,7 +6877,7 @@ namespace online
                     if (adadmbp.Text != "" && nrxmbp.Text != "")
                     {
                         materialSingleLineTextField46.Text = (Convert.ToDouble(nrxmbp.Text) * Convert.ToDouble(adadmbp.Text)).ToString();
-                        materialSingleLineTextField47.Text = (Convert.ToDouble(materialSingleLineTextField46.Text) / draw.dolar).ToString();
+                        materialSingleLineTextField47.Text = (Convert.ToDouble(materialSingleLineTextField46.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -7240,7 +7272,7 @@ namespace online
                 if (materialSingleLineTextField34.Text != "")
                 {
 
-                    br.Text = (Convert.ToDouble(materialSingleLineTextField34.Text) / draw.dolar).ToString();
+                    br.Text = (Convert.ToDouble(materialSingleLineTextField34.Text) / online.draw.dolar).ToString();
                 }
                 else
                 {
@@ -7575,13 +7607,13 @@ namespace online
             if (materialSingleLineTextField42.Text != "")
             {
 
-                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ' FROM `dawakary_amer_view` where wasl like '" + materialSingleLineTextField42.Text + "%' group by wasl");
+                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` where wasl like '" + materialSingleLineTextField42.Text + "%' group by wasl");
                 ob.sum(label365, data36, 1);
             }
             else
             {
 
-                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ' FROM `dawakary_amer_view` group by wasl");
+                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` group by wasl");
                 ob.sum(label365, data36, 1);
             }
 
@@ -7596,12 +7628,12 @@ namespace online
         {
             if (materialSingleLineTextField35.Text != "")
             {
-                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ' FROM `dawakary_amer_view` where cname like '" + materialSingleLineTextField35.Text + "%' group by wasl");
+                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` where cname like '" + materialSingleLineTextField35.Text + "%' group by wasl");
                 ob.sum(label365, data36, 1);
             }
             else
             {
-                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ' FROM `dawakary_amer_view` group by wasl");
+                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` group by wasl");
                 ob.sum(label365, data36, 1);
 
             }
@@ -7611,12 +7643,12 @@ namespace online
         {
             if (materialSingleLineTextField35.Text != "")
             {
-                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ' FROM `dawakary_amer_view` where cname like '" + materialSingleLineTextField35.Text + "%' and barwar between '" + dateTimePicker43.Text + "' and '" + dateTimePicker44.Text + "' group by wasl");
+                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` where cname like '" + materialSingleLineTextField35.Text + "%' and barwar between '" + dateTimePicker43.Text + "' and '" + dateTimePicker44.Text + "' group by wasl");
                 ob.sum(label365, data36, 1);
             }
             else
             {
-                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ' FROM `dawakary_amer_view` where barwar between '" + dateTimePicker43.Text + "' and '" + dateTimePicker44.Text + "' group by wasl");
+                ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',maxzan as 'کۆگا', `wasl` as 'وەسڵ', `state` as 'حاڵەت' FROM `dawakary_amer_view` where barwar between '" + dateTimePicker43.Text + "' and '" + dateTimePicker44.Text + "' group by wasl");
                 ob.sum(label365, data36, 1);
 
             }
@@ -8719,7 +8751,17 @@ namespace online
 
         private void data36_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
+            foreach (DataGridViewRow row in data36.Rows)
+                // do sonmthind
 
+                if (Convert.ToString(row.Cells[6].Value).Equals("قبوڵنەکراو"))
+                {
+                    if (row.Index <= data36.RowCount - 1)
+                    {
+                        row.DefaultCellStyle.BackColor = Color.Red;
+                        row.DefaultCellStyle.ForeColor = Color.White;
+                    }
+                }
         }
 
         private void datagridview12_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
@@ -9050,7 +9092,7 @@ namespace online
 
         private void toolStripMenuItem6_Click(object sender, EventArgs e)
         {
-            chaneuserinfo os = new chaneuserinfo();
+            chargeuserinfo os = new chargeuserinfo();
             os.Show();
         }
 
@@ -9104,7 +9146,7 @@ namespace online
                     }
 
 
-                    sumpd.Text = (Convert.ToDouble(sump.Text) * draw.dolar).ToString();
+                    sumpd.Text = (Convert.ToDouble(sump.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -9112,7 +9154,7 @@ namespace online
                     if (price.Text != "" && number.Text != "")
                     {
                         sumpd.Text = (Convert.ToDouble(price.Text) * Convert.ToDouble(number.Text)).ToString();
-                        sump.Text = (Convert.ToDouble(sumpd.Text) / draw.dolar).ToString();
+                        sump.Text = (Convert.ToDouble(sumpd.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -9268,7 +9310,7 @@ namespace online
                     }
 
 
-                    materialSingleLineTextField50.Text = (Convert.ToDouble(materialSingleLineTextField51.Text) * draw.dolar).ToString();
+                    materialSingleLineTextField50.Text = (Convert.ToDouble(materialSingleLineTextField51.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -9276,7 +9318,7 @@ namespace online
                     if (numfcus.Text != "" && nrxfcus.Text != "")
                     {
                         materialSingleLineTextField50.Text = (Convert.ToDouble(nrxfcus.Text) * Convert.ToDouble(numfcus.Text)).ToString();
-                        materialSingleLineTextField51.Text = (Convert.ToDouble(materialSingleLineTextField50.Text) / draw.dolar).ToString();
+                        materialSingleLineTextField51.Text = (Convert.ToDouble(materialSingleLineTextField50.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -9310,7 +9352,7 @@ namespace online
                     }
 
 
-                    materialSingleLineTextField50.Text = (Convert.ToDouble(materialSingleLineTextField51.Text) * draw.dolar).ToString();
+                    materialSingleLineTextField50.Text = (Convert.ToDouble(materialSingleLineTextField51.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -9318,7 +9360,7 @@ namespace online
                     if (numfcus.Text != "" && nrxfcus.Text != "")
                     {
                         materialSingleLineTextField50.Text = (Convert.ToDouble(nrxfcus.Text) * Convert.ToDouble(numfcus.Text)).ToString();
-                        materialSingleLineTextField51.Text = (Convert.ToDouble(materialSingleLineTextField50.Text) / draw.dolar).ToString();
+                        materialSingleLineTextField51.Text = (Convert.ToDouble(materialSingleLineTextField50.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -9352,7 +9394,7 @@ namespace online
                     }
 
 
-                    materialSingleLineTextField46.Text = (Convert.ToDouble(materialSingleLineTextField47.Text) * draw.dolar).ToString();
+                    materialSingleLineTextField46.Text = (Convert.ToDouble(materialSingleLineTextField47.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -9360,7 +9402,7 @@ namespace online
                     if (adadmbp.Text != "" && nrxmbp.Text != "")
                     {
                         materialSingleLineTextField46.Text = (Convert.ToDouble(nrxmbp.Text) * Convert.ToDouble(adadmbp.Text)).ToString();
-                        materialSingleLineTextField47.Text = (Convert.ToDouble(materialSingleLineTextField46.Text) / draw.dolar).ToString();
+                        materialSingleLineTextField47.Text = (Convert.ToDouble(materialSingleLineTextField46.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -9394,7 +9436,7 @@ namespace online
                     }
 
 
-                    materialSingleLineTextField50.Text = (Convert.ToDouble(materialSingleLineTextField51.Text) * draw.dolar).ToString();
+                    materialSingleLineTextField50.Text = (Convert.ToDouble(materialSingleLineTextField51.Text) * online.draw.dolar).ToString();
 
                 }
                 else
@@ -9402,7 +9444,7 @@ namespace online
                     if (numfcus.Text != "" && nrxfcus.Text != "")
                     {
                         materialSingleLineTextField50.Text = (Convert.ToDouble(nrxfcus.Text) * Convert.ToDouble(numfcus.Text)).ToString();
-                        materialSingleLineTextField51.Text = (Convert.ToDouble(materialSingleLineTextField50.Text) / draw.dolar).ToString();
+                        materialSingleLineTextField51.Text = (Convert.ToDouble(materialSingleLineTextField50.Text) / online.draw.dolar).ToString();
                     }
                     else
                     {
@@ -10422,7 +10464,7 @@ namespace online
                              "WHERE `wasl` = '" + wasl + "'";
                         ob.insert_del_up(updateQuery);
                         //ob.a(this.Controls);
-                        ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',`maxzan` as 'کۆگا',`wasl` as 'وەسڵ' FROM `dawakary_amer_view` group by wasl");
+                        ob.table(data36, "SELECT `id` as '#',sum(`adad`) as 'عەدەد', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `cname` as 'بریکار',`maxzan` as 'کۆگا',`wasl` as 'وەسڵ',`state` as 'حالەت' FROM `dawakary_amer_view` group by wasl");
                         ob.count(label365, data36, 2);
                         messageboxsuc obb = new messageboxsuc();
                         obb.Show();
@@ -10905,6 +10947,178 @@ namespace online
                         row.DefaultCellStyle.ForeColor = Color.White;
                     }
                 }
+        }
+
+        private void toolStripMenuItem9_Click(object sender, EventArgs e)
+        {
+            chaneuserinfo os = new chaneuserinfo();
+            os.Show();
+        }
+
+        private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void metroButton15_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedIndex = 51;
+            ob.table(gwastData, "SELECT `id` as '#', `amount` as 'عەدەد',`kid` as 'نيردەر',`cus` as 'وەرگر', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی' FROM `exchange_balance_view`");
+            ob.sum(totalP, gwastData, 1);
+            ob.comb(comboBox21, "SELECT * FROM customer", "cid", "cname");
+            ob.comb(comboBox22, "SELECT * FROM customer", "cid", "cname");
+        }
+
+        private void pictureBox191_Click(object sender, EventArgs e)
+        {
+            ob.table(gwastData, "SELECT `id` as '#', `amount` as 'عەدەد',`kid` as 'نيردەر',`cus` as 'وەرگر', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی' FROM `exchange_balance_view` where  DATE_FORMAT(`barwar`, '%Y/%m/%d') between '" + startDate.Text + "' and '" + endD.Text + "'");
+            ob.sum(totalP, gwastData, 1);
+        }
+
+        private void gwastData_SelectionChanged(object sender, EventArgs e)
+        {
+            ob.change_datagridview_textfild(gwastData, waslgwastnawa, 0);
+            ob.change_datagridview_textfild(gwastData, brgwastnawa, 1);
+            ob.change_datagridview_combo(gwastData, comboBox21, 2);
+            ob.change_datagridview_combo(gwastData, comboBox22, 3);
+            ob.change_datagridview(gwastData, textBox14, 5);
+            ob.change_datagridview_picker(gwastData, dateTimePicker88, 4);
+        }
+
+        private void pictureBox192_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("دڵنیای؟", "هەڵگرتن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                try { 
+                    if (gwastData.SelectedRows.Count != 0)
+                    {
+                        int i = gwastData.SelectedRows[0].Index;
+                        String idToUpdate = gwastData.Rows[i].Cells[0].Value.ToString();
+                        String kidValue = comboBox21.SelectedValue.ToString();
+                        String adadValue = brgwastnawa.Text;
+                        DateTime barwarValue = DateTime.Parse(dateTimePicker88.Text);
+                        String noteValue = textBox14.Text;
+                        String cusValue = comboBox22.SelectedValue.ToString();
+                        // Construct the SQL query
+                        String updateQuery = $"UPDATE exchange_balance SET kid = {kidValue}, amount = {adadValue}, barwar = '{barwarValue.ToString("yyyy-MM-dd")}', " +
+                                       $"tebene = '{noteValue}', cus = {cusValue} " +
+                                       $"WHERE id = {idToUpdate}";
+                        ob.insert_del_up(updateQuery);
+                        //ob.a(this.Controls);
+                        ob.table(gwastData, "SELECT `id` as '#', `amount` as 'عەدەد',`kid` as 'نيردەر',`cus` as 'وەرگر', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی' FROM `exchange_balance_view`");
+                        ob.sum(totalP, gwastData, 1);
+                        messageboxsuc obb = new messageboxsuc();
+                        obb.Show();
+                    }
+                }
+                catch (Exception)
+                {
+                    messageboxfail obb = new messageboxfail();
+                    obb.Show();
+                }
+
+            }
+
+        }
+
+        private void pictureBox193_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                //int i = gwastData.SelectedRows[0].Index;
+                String kidValue = comboBox21.SelectedValue.ToString();
+                String adadValue = brgwastnawa.Text;
+                DateTime barwarValue = DateTime.Parse(dateTimePicker88.Text);
+                String noteValue = textBox14.Text;
+                String cusValue = comboBox22.SelectedValue.ToString();
+
+                // Construct the SQL query for INSERT
+                String insertQuery = $"INSERT INTO exchange_balance (kid, amount, barwar, tebene, cus) " +
+                                     $"VALUES ({kidValue}, {adadValue}, '{barwarValue.ToString("yyyy-MM-dd")}', " +
+                                     $"'{noteValue}', {cusValue})";
+
+                ob.insert_del_up(insertQuery);
+
+                ob.table(gwastData, "SELECT `id` as '#', `amount` as 'عەدەد',`kid` as 'نيردەر',`cus` as 'وەرگر', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی' FROM `exchange_balance_view`");
+                ob.sum(totalP, gwastData, 1);
+                messageboxsuc obb = new messageboxsuc();
+                obb.Show();
+
+
+            }
+            catch (Exception)
+            {
+                messageboxfail obb = new messageboxfail();
+                obb.Show();
+            }
+        }
+
+        private void gwastData_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Delete)
+            {
+                try
+                {
+                    if (gwastData.SelectedRows.Count != 0)
+                    {
+                        int i = gwastData.SelectedRows[0].Index;
+                        int id = Convert.ToInt32(gwastData.Rows[i].Cells[0].Value.ToString());
+
+                        if (MessageBox.Show("دڵنیای لە سڕینەوە؟", "سڕینەوە", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            
+                            ob.insert_del_up("DELETE FROM `exchange_balance` WHERE id='" + id + "'");
+                            ob.table(gwastData, "SELECT `id` as '#', `amount` as 'عەدەد',`kid` as 'نيردەر',`cus` as 'وەرگر', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی' FROM `exchange_balance_view`");
+                            ob.sum(totalP, gwastData, 1);
+
+
+                        }
+                        else
+                        {
+                            ob.table(gwastData, "SELECT `id` as '#', `amount` as 'عەدەد',`kid` as 'نيردەر',`cus` as 'وەرگر', DATE_FORMAT(`barwar`, '%Y/%m/%d') as 'بەروار', `tebene` as 'تێبینی' FROM `exchange_balance_view`");
+                            ob.sum(totalP, gwastData, 1);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    messageboxfail obb = new messageboxfail();
+                    obb.Show();
+
+                }
+            }
+
+        }
+
+        private void materialTabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void datar1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void datr4_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void datr6_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void datr5_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void datar2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

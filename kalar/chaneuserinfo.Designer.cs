@@ -49,7 +49,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(187, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 16);
+            this.label1.Size = new System.Drawing.Size(99, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "گواستنەوەی کارت";
             // 
@@ -59,12 +59,13 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(319, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 16);
+            this.label2.Size = new System.Drawing.Size(87, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = ":بریکاری نێردەر";
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::online.Properties.Resources.Group_572;
             this.pictureBox3.Location = new System.Drawing.Point(34, 385);
@@ -93,7 +94,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(319, 156);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 16);
+            this.label3.Size = new System.Drawing.Size(88, 16);
             this.label3.TabIndex = 28;
             this.label3.Text = ":بریکاری وەرگر";
             // 
@@ -103,7 +104,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(336, 220);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 16);
+            this.label4.Size = new System.Drawing.Size(71, 16);
             this.label4.TabIndex = 29;
             this.label4.Text = ":جۆری کارت";
             // 
@@ -113,39 +114,41 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(368, 291);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 16);
+            this.label5.Size = new System.Drawing.Size(38, 16);
             this.label5.TabIndex = 30;
             this.label5.Text = ":عەدەد";
             // 
             // send
             // 
             this.send.FormattingEnabled = true;
-            this.send.Location = new System.Drawing.Point(78, 85);
+            this.send.Location = new System.Drawing.Point(34, 85);
             this.send.Name = "send";
-            this.send.Size = new System.Drawing.Size(209, 21);
+            this.send.Size = new System.Drawing.Size(253, 21);
             this.send.TabIndex = 415;
             // 
             // rec
             // 
             this.rec.FormattingEnabled = true;
-            this.rec.Location = new System.Drawing.Point(78, 155);
+            this.rec.Location = new System.Drawing.Point(34, 155);
             this.rec.Name = "rec";
-            this.rec.Size = new System.Drawing.Size(209, 21);
+            this.rec.Size = new System.Drawing.Size(253, 21);
             this.rec.TabIndex = 416;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(78, 220);
+            this.comboBox2.Location = new System.Drawing.Point(34, 220);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(209, 21);
+            this.comboBox2.Size = new System.Drawing.Size(253, 21);
             this.comboBox2.TabIndex = 417;
             // 
             // numkart
             // 
+            this.numkart.BackColor = System.Drawing.Color.White;
             this.numkart.Depth = 0;
+            this.numkart.ForeColor = System.Drawing.Color.White;
             this.numkart.Hint = "";
-            this.numkart.Location = new System.Drawing.Point(78, 284);
+            this.numkart.Location = new System.Drawing.Point(34, 284);
             this.numkart.MaxLength = 32767;
             this.numkart.MouseState = MaterialSkin.MouseState.HOVER;
             this.numkart.Name = "numkart";
@@ -154,7 +157,7 @@
             this.numkart.SelectedText = "";
             this.numkart.SelectionLength = 0;
             this.numkart.SelectionStart = 0;
-            this.numkart.Size = new System.Drawing.Size(209, 23);
+            this.numkart.Size = new System.Drawing.Size(253, 23);
             this.numkart.TabIndex = 418;
             this.numkart.TabStop = false;
             this.numkart.Text = "0";
@@ -164,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(419, 460);
             this.Controls.Add(this.numkart);
             this.Controls.Add(this.comboBox2);
@@ -177,7 +180,8 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "chaneuserinfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "chaneuserinfo";

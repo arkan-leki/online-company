@@ -12,8 +12,8 @@ namespace Classonlinecompany
 {
     public class systm
     {
-        //  public static string sql = "server=185.166.24.120;port=3307;database=new_system_online;user=u901521484_sahl;password=Onlinecompanysahl$1;Charset=utf8;convert zero datetime=True";
-        public static string sql = "server=127.0.0.1;port=3306;database=new_system_online;user=root;password=root;Charset=utf8;SslMode=none;";
+        public static string sql = "server=185.166.24.102;port=3307;database=new_system_online;user=u901521484_sahl;password=Onlinecompanysahl$1;Charset=utf8;convert zero datetime=True";
+        // public static string sql = "server=127.0.0.1;port=3306;database=new_system_online;user=root;password=root;Charset=utf8;convert zero datetime=True";
 
         private MySqlConnection con = new MySqlConnection(sql);
 

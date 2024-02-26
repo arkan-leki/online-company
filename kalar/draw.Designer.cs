@@ -34,20 +34,19 @@
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.easyHTMLReports1 = new KimToo.EasyHTMLReports(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(153, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(191, 24);
@@ -105,25 +104,14 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::online.Properties.Resources._12289688_1520555964929403_1610771386614541621_n_copy3;
-            this.pictureBox1.Location = new System.Drawing.Point(471, 1);
+            this.pictureBox1.Image = global::online.Properties.Resources.onl;
+            this.pictureBox1.Location = new System.Drawing.Point(460, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(43, 35);
+            this.pictureBox1.Size = new System.Drawing.Size(54, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::online.Properties.Resources.logo;
-            this.pictureBox14.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(41, 35);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 5;
-            this.pictureBox14.TabStop = false;
-            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // easyHTMLReports1
             // 
@@ -147,13 +135,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(515, 188);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox14);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "draw";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -161,15 +149,12 @@
             this.Load += new System.EventHandler(this.draw_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox8;

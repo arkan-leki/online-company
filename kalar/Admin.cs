@@ -295,7 +295,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -331,7 +331,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -705,7 +705,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -866,7 +866,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -968,7 +968,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -1060,7 +1060,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -1316,7 +1316,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -1344,7 +1344,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -1647,7 +1647,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -1802,7 +1802,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2231,7 +2231,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2462,7 +2462,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2488,7 +2488,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2550,7 +2550,7 @@ namespace online
             obb.Show();
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2640,7 +2640,7 @@ namespace online
                     obb.Show();
                     easyHTMLReports1.Clear();
                     easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-                    easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+                    easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
                     easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
                     easyHTMLReports1.AddLineBreak();
@@ -2777,7 +2777,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2806,7 +2806,7 @@ namespace online
             obb.Show();
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -2873,7 +2873,7 @@ namespace online
                     obb.Show();
                     //easyHTMLReports1.Clear();
                     //easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-                    //easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+                    //easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
                     //easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
                     //easyHTMLReports1.AddLineBreak();
@@ -2962,7 +2962,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -3212,7 +3212,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -3269,7 +3269,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -3366,7 +3366,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -3514,7 +3514,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -3653,7 +3653,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -3980,7 +3980,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -4077,7 +4077,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -4303,7 +4303,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -4423,7 +4423,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -4480,7 +4480,7 @@ namespace online
                 obb.Show();
                 easyHTMLReports1.Clear();
                 easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-                easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+                easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
                 easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
                 easyHTMLReports1.AddLineBreak();
@@ -4576,7 +4576,7 @@ namespace online
                     obb.Show();
                     easyHTMLReports1.Clear();
                     easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-                    easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+                    easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
                     easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
                     easyHTMLReports1.AddLineBreak();
@@ -4719,7 +4719,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -4874,7 +4874,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -4907,7 +4907,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -5040,7 +5040,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -5096,7 +5096,7 @@ namespace online
                 obb.Show();
                 easyHTMLReports1.Clear();
                 easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-                easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+                easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
                 easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
                 easyHTMLReports1.AddLineBreak();
@@ -5168,7 +5168,7 @@ namespace online
                     obb.Show();
                     easyHTMLReports1.Clear();
                     easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-                    easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+                    easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
                     easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
                     easyHTMLReports1.AddLineBreak();
@@ -5296,7 +5296,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -5404,7 +5404,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -5518,8 +5518,9 @@ namespace online
         private void pictureBox110_Click(object sender, EventArgs e)
         {
             easyHTMLReports1.Clear();
+            easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >For information technology<br> Electronic supplies <br> Internet services</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -5610,10 +5611,15 @@ namespace online
             easyHTMLReports1.AddString("</table>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ or<br>Bank transfer to IQ account with the following details</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Bank Name:Trade Bank of republic of Iraq <br>Account Name:Online Co.<br>Account Number IQD:0023-008889-001<br>Account Number USD:0023-008889-002<</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Account Number IQD:0023-008889-001<br>IBAN NO: IQ98 TARIQ 9780 2300 8889 001 <br> Account Number USD:0023-008889-002<br>IBAN NO: 25160000023008889002<br>Swift Code: TRIQIQBAXXX</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>Ghareb Rashid Abdulqader<br>009647713297399-009647711551194<br>acc@onlineco.net-gharib@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ </p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<h4 align=center style='font-size:14px;'>   Kalar Bazar - Talari M. Mahmoud -  3nd floor, Sulaymaniyah, IRAQ -    Tel: 07711550366 - 07502478020</h4>");
+
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -5678,7 +5684,7 @@ namespace online
 
 
 
-                        ob.aa(this.Controls);
+                        //ob.aa(this.Controls);
 
 
                         ob.table(data31, "SELECT `id` as '#', employee.ename as 'ناوی کارمەند',employee.pla as 'پلە', `br` AS 'موچەی بنەڕەتی', muchay_employee.`amanat` AS 'ئەمانەت', `padasht` AS 'پاداشت ', `sza` AS 'سزا', `plus` AS 'کاتژمێری زیادە', `give` AS 'قەرز دانەوە', muchay_employee.`mucha` AS 'موچەی ئێستا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەروار', `note` AS 'تێبینی' FROM `muchay_employee`,employee where muchay_employee.employee_id=employee.eid");
@@ -5886,9 +5892,20 @@ namespace online
                 easyHTMLReports1.AddLineBreak();
                 easyHTMLReports1.AddLineBreak();
                 easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+                easyHTMLReports1.AddLineBreak();
+
                 easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif; direction:rtl;font-size:14px;width: 100%;'>");
                 easyHTMLReports1.AddString("<tr  style='border: 1px solid white;text-align: center;padding: 8px;'>");
                 easyHTMLReports1.AddString("<td  style='border: 1px solid white;text-align: center;padding: 8px;'>ژمێریاری</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid white;text-align: center;padding: 8px;'>کارگێڕی</td>");
                 easyHTMLReports1.AddString("<td style='border: 1px solid white;text-align: center;padding: 8px;' >ووردبین</td>");
                 easyHTMLReports1.AddString("<td style='border: 1px solid white;text-align: center;padding: 8px;'>بەڕێوبەر</td>");
                 easyHTMLReports1.AddString("</tr>");
@@ -6111,7 +6128,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -6264,13 +6281,13 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ or<br>Bank transfer to IQ account with the following details</p>");
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ </p>");
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;color:blue;'> Accountant / " + Form1.us + "<br> </p>");
             easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.addf("<h4 align=center style='font-size:14px;'>   Kalar Bazar - Talari M. Mahmoud -  3nd floor Sulaymaniyah, IRAQ -    Tel: 07711550366 - 07502478020</h4>");
+            easyHTMLReports1.AddString("<h4 align=center style='font-size:14px;'>   Kalar Bazar - Talari M. Mahmoud -  3nd floor, Sulaymaniyah, IRAQ -    Tel: 07711550366 - 07502478020</h4>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
 
@@ -6498,7 +6515,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd floor <br> Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -6559,10 +6576,9 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ or<br>Bank transfer to IQ account with the following details</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Bank Name:Trade Bank of republic of Iraq <br>Account Name:Online Co.<br>Account Number IQD:0023-008889-001<br>Account Number USD:0023-008889-002<</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Account Number IQD:0023-008889-001<br>IBAN NO: IQ98 TARIQ 9780 2300 8889 001 <br> Account Number USD:0023-008889-002<br>IBAN NO: 25160000023008889002<br>Swift Code: TRIQIQBAXXX</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>Ghareb Rashid Abdulqader<br>009647713297399-009647711551194<br>acc@onlineco.net-gharib@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ </p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net");
             easyHTMLReports1.ShowPrintPreviewDialog();
 
         }
@@ -6571,7 +6587,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd floor <br>Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -6631,10 +6647,9 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ or<br>Bank transfer to IQ account with the following details</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Bank Name:Trade Bank of republic of Iraq <br>Account Name:Online Co.<br>Account Number IQD:0023-008889-001<br>Account Number USD:0023-008889-002<</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Account Number IQD:0023-008889-001<br>IBAN NO: IQ98 TARIQ 9780 2300 8889 001 <br> Account Number USD:0023-008889-002<br>IBAN NO: 25160000023008889002<br>Swift Code: TRIQIQBAXXX</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>Ghareb Rashid Abdulqader<br>009647713297399-009647711551194<br>acc@onlineco.net-gharib@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ </p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -7293,7 +7308,7 @@ namespace online
             //ob.sum(label228, ispdataqarz, 1);
             //easyHTMLReports1.Clear();
             //easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            //easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            //easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             //easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             //easyHTMLReports1.AddLineBreak();
@@ -7397,7 +7412,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd floor <br>Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -7658,7 +7673,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd floor <br>Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -8013,7 +8028,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd <br>floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -8075,7 +8090,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud 3nd floor  <br>Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -8383,7 +8398,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd floor <br>Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -8569,7 +8584,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud  3nd floor <br>Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -8996,7 +9011,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud 3nd floor <br> Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -9046,7 +9061,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud> 3nd floor  <brSulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -9262,7 +9277,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -9549,7 +9564,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -9633,10 +9648,9 @@ namespace online
 
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ or<br>Bank transfer to IQ account with the following details</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Bank Name:Trade Bank of republic of Iraq <br>Account Name:Online Co.<br>Account Number IQD:0023-008889-001<br>Account Number USD:0023-008889-002<</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Account Number IQD:0023-008889-001<br>IBAN NO: IQ98 TARIQ 9780 2300 8889 001 <br> Account Number USD:0023-008889-002<br>IBAN NO: 25160000023008889002<br>Swift Code: TRIQIQBAXXX</p>");
-            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>Ghareb Rashid Abdulqader<br>009647713297399-009647711551194<br>acc@onlineco.net-gharib@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ </p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
         public static int a = 0;
@@ -9846,7 +9860,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -10107,7 +10121,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -10192,7 +10206,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -10294,7 +10308,7 @@ namespace online
         {
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07713297399-07512330607</p>");
+            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();

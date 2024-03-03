@@ -39,7 +39,9 @@ namespace online
             {
 
                 label274.Text = "وردەکاری ئامێری فرۆشراو";
-             ob.table(data29, "SELECT `brid` AS '#', `wasl` AS 'ژ.وەسڵ', `num` AS 'عەدەد', `price` AS 'نرخ', `sumprice` AS 'کۆی نرخ', DATE_FORMAT(`dates`, '%Y/%m/%d') AS 'بەروار', amer.aname AS 'جۆری ئامێر',customer.cname as 'بریکار',(select COALESCE(sum(number),0)  from storage_amer_view_customer where storage_amer_view_customer.aid=froshtn_amer.aid and storage_amer_view_customer.cusid=froshtn_amer.cid) as 'ئامێری ماوە',tebene AS 'تێبینی' FROM `froshtn_amer`,amer,customer WHERE froshtn_amer.aid=amer.aid and customer.cid=froshtn_amer.cid and customer.cname='" + wasla + "' and DATE_FORMAT(`dates`, '%Y/%m/%d') between '" + Admin.ds + "' and '" + Admin.dl + "'");
+                //ob.table(data29, "SELECT `brid` AS '#', `wasl` AS 'ژ.وەسڵ', `num` AS 'عەدەد', `price` AS 'نرخ', `sumprice` AS 'کۆی نرخ', DATE_FORMAT(`dates`, '%Y/%m/%d') AS 'بەروار', amer.aname AS 'جۆری ئامێر',customer.cname as 'بریکار',(select COALESCE(sum(number),0)  from storage_amer_view_customer where storage_amer_view_customer.aid=froshtn_amer.aid and storage_amer_view_customer.cusid=froshtn_amer.cid) as 'ئامێری ماوە',tebene AS 'تێبینی' FROM `froshtn_amer`,amer,customer WHERE froshtn_amer.aid=amer.aid and customer.cid=froshtn_amer.cid and customer.cname='" + wasla + "' and DATE_FORMAT(`dates`, '%Y/%m/%d') between '" + Admin.ds + "' and '" + Admin.dl + "'");
+                ob.table(data29, "SELECT `brid` AS '#', `wasl` AS 'ژ.وەسڵ', `num` AS 'عەدەد', `price` AS 'نرخ', `sumprice` AS 'کۆی نرخ', DATE_FORMAT(`dates`, '%Y/%m/%d') AS 'بەروار', amer.aname AS 'جۆری ئامێر', customer.cname AS 'بریکار', tebene AS 'تێبینی' FROM `froshtn_amer` JOIN `amer` ON froshtn_amer.aid=amer.aid JOIN `customer` ON customer.cid=froshtn_amer.cid WHERE customer.cname='" + wasla + "' AND `dates` BETWEEN '" + Admin.ds + "' AND '" + Admin.dl + "'");
+
                 ob.sum(label275, data29, 2);
                 ob.sum(label277, data29, 4);
             }

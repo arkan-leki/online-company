@@ -256,7 +256,7 @@ namespace online
 
                 easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
                 easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>تێبینی</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>ماوە</th>");
+                //easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>ماوە</th>");
                 easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>بەروار</th>");
                 easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>کۆی نرخ</th>");
                 easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>نرخ</th>");
@@ -274,7 +274,7 @@ namespace online
                 {
 
                     easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + data29.Rows[i].Cells[9].Value.ToString() + "</td>");
+                    //easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + data29.Rows[i].Cells[9].Value.ToString() + "</td>");
                     easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + data29.Rows[i].Cells[8].Value.ToString() + "</td>");
                     easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + data29.Rows[i].Cells[5].Value.ToString() + "</td>");
                     easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + data29.Rows[i].Cells[4].Value.ToString() + "</td>");

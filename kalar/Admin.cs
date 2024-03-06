@@ -18,6 +18,8 @@ using Classonlinecompany;
 using NPOI.SS.Formula.Functions;
 using NPOI.Util;
 using static NPOI.HSSF.Util.HSSFColor;
+using static Google.Protobuf.WellKnownTypes.Field.Types;
+using MySqlX.XDevAPI.Relational;
 
 namespace online
 {
@@ -5294,26 +5296,96 @@ namespace online
 
         private void pictureBox101_Click(object sender, EventArgs e)
         {
-            easyHTMLReports1.Clear();
-            easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >kalar bazar<br> Talari M.Mahmoud <br> 3nd floor Sulaymaniyah,IRAQ <br> Tel:07711550366 - 07502478020</p>");
+            try
+            {
+                if (givemonecus.SelectedRows.Count != 0)
+                {
+                    bool dinar = checkBox6.Checked;
+                    double conversionRate = online.draw.dolar; // Make sure this is the current conversion rate
+                    easyHTMLReports1.Clear();
+                    easyHTMLReports1.AddLineBreak();
+                    // Company Header
+                    string headerHTML = @"
+            <div style='text-align:left; margin-bottom: 20px;'>
+                <h1 style='color: #004A8F;'>Online Company Ltd</h1>
+                <p>
+                    Kalar Bazar<br>
+                    Talari M. Mahmoud, 3rd Floor<br>
+                    Sulaymaniyah, IRAQ<br>
+                    Tel: 07711550366 - 07502478020
+                </p>
+            </div>";
 
-            easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<h2 align=right style='color:cyan; margin-top:-110px'> گێڕانەوەی قەرزی کڕیاری باند</h2>");
-            easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>" + DateTime.Now.ToString("yyyy/MM/dd") + "<br>User " + Form1.us + "</p>");
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddDatagridView(givemonecus, "style='width:100%; direction:rtl;'");
-            easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label268.Text + "</p>");
-            easyHTMLReports1.ShowPrintPreviewDialog();
+                    // Initialize items table HTML with headers
+                    string itemsTableHTML = @"
+            <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
+                <tr>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Month</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                </tr>";
+                    int index = givemonecus.SelectedRows[0].Index;
+                    string customer = givemonecus.Rows[index].Cells[3].Value.ToString();
+
+                    // Loop through all rows in DataGridView
+                    foreach (DataGridViewRow row in givemonecus.Rows)
+                    {
+                        if (!row.IsNewRow) // Check to avoid processing the new row template
+                        {
+                            string note = row.Cells[5].Value.ToString();
+                            string date = row.Cells[2].Value.ToString();
+                            //string customer = row.Cells[3].Value.ToString(); // Assuming this doesn't change per row
+                            string receipt = row.Cells[4].Value.ToString();
+                            double amount = Convert.ToDouble(row.Cells[1].Value.ToString());
+                            string formattedAmount = dinar ? RoundToNearestThreshold(amount * conversionRate).ToString("N0") + " IQD" : "$" + amount.ToString("N2");
+
+                            itemsTableHTML += $@"
+                    <tr>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{note}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{date}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{receipt}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                    </tr>";
+                        }
+                    }
+
+                    // Close the table HTML
+                    itemsTableHTML += "</table>";
+
+                    // Assuming customer name and total amount remain constant for the whole receipt
+                    // Add Receipt Title and Date
+                    string titleAndDateHTML = $@"
+            <div style='display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;'>
+                <div>
+                    <h2 style='color: #004A8F;'>Arrived Receipt</h2>
+                    <p>Customer: {customer}</p> <!-- Make sure 'customer' is defined outside the loop -->
+                </div>
+                <p>{DateTime.Now.ToString("yyyy/MM/dd")}</p> <!-- 'receipt' should also be defined -->
+            </div>";
+
+                    // Total Amount
+                    double total = Convert.ToDouble(label268.Text);
+                    string formattedTotal = dinar ? RoundToNearestThreshold(total * conversionRate).ToString("N0") + " IQD" : "$" + total.ToString("N2");
+                    string totalAmountHTML = $@"
+            <div style='text-align: right; margin-top: 20px;'>
+                <p style='color: #004A8F;'><strong>Total:</strong>{formattedTotal}</p>
+            </div>";
+
+                    // Combine all parts
+                    easyHTMLReports1.AddString(headerHTML);
+                    easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top: -160px; margin-right: 20px;'");
+                    easyHTMLReports1.AddString(titleAndDateHTML);
+                    easyHTMLReports1.AddString(itemsTableHTML); // Use the dynamically generated table
+                    easyHTMLReports1.AddString(totalAmountHTML);
+
+                    // Show or export the report
+                    easyHTMLReports1.ShowPrintPreviewDialog();
+                }
+            }
+            catch { 
+            }
+
         }
 
         private void pictureBox104_Click(object sender, EventArgs e)
@@ -6209,10 +6281,22 @@ namespace online
             ob.sum(label243, datagridcus, 3);
         }
 
+        static double RoundToNearestThreshold(double num)
+        {
+            // Calculate the remainder when divided by 1000 to find how far the number is into its current thousand.
+            double remainder = num % 250;
+            Console.WriteLine($"Original: {num}, Rounded: {remainder}");
+            // Determine the closest threshold (250, 500, 750, or 1000) for the remainder.
+            if (remainder < 125) return num - remainder;
+            else return num - remainder + 250; // Closer to the next thousand
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            bool dinar = checkBox2.Checked;
-            //MessageBox.Show("The CheckBox is " + (dinar ? "checked." : "not checked."));
+            bool dinar = checkBox5.Checked;
+            double conversionRate = online.draw.dolar;
+            string currencySymbol = dinar ? "IQD " : "$";
+
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
@@ -6256,27 +6340,45 @@ namespace online
             MySqlDataReader rdd = mdd.ExecuteReader();
             while (rdd.Read())
             {
+                double unitPrice = Convert.ToDouble(rdd.GetString("unit"));
+                double amount = Convert.ToDouble(rdd.GetString("amount"));
+                string formattedunitPrice = "$" + unitPrice.ToString("N2");
+                string formattedamount = "$" + amount.ToString("N2");
+                if (dinar)
+                {
+                    unitPrice *= conversionRate;
+                    amount *= conversionRate;
+                    unitPrice = RoundToNearestThreshold(unitPrice);
+                    amount = RoundToNearestThreshold(amount);
+                    formattedunitPrice = unitPrice.ToString("N0") + " IQD";
+                    formattedamount = amount.ToString("N0") + " IQD";
+                }
                 easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
                 easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("dis") + "</td>");
                 easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("daym") + "</td>");
 
                 easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("days") + "</td>");
                 easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("quantity") + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + rdd.GetString("unit") + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + rdd.GetString("amount") + "</td>");
-                easyHTMLReports1.AddString("</tr>");
-                sm = sm + Convert.ToDouble(rdd.GetString("amount"));
+                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedunitPrice + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedamount + "</td>"); easyHTMLReports1.AddString("</tr>");
+                sm += Convert.ToDouble(rdd.GetString("amount"));
             }
 
             con.Close();
+            string formattedTotal = "$" + sm.ToString("N2") ;
+            if (dinar)
+            {
+                sm *= conversionRate;
+                 formattedTotal = RoundToNearestThreshold(sm).ToString("N0") + " IQD";
+            }
             easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
             easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + sm + "</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>" +  formattedTotal + "</td>");
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
 
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>$" + sm + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + formattedTotal + "</p>");
             easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -11131,6 +11233,76 @@ namespace online
         }
 
         private void datar2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialSingleLineTextField5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label66_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialSingleLineTextField4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label65_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label155_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker17_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label167_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label168_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker63_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label465_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label487_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialSingleLineTextField39_Click(object sender, EventArgs e)
         {
 
         }

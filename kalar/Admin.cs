@@ -11613,10 +11613,10 @@ namespace online
             <div style='text-align:left; margin-bottom: 20px;'>
                 <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
                 <p>
-                    Kalar Bazar<br>
-                    Talari M. Mahmoud, 3rd Floor<br>
-                    Sulaymaniyah, IRAQ<br>
-                    Tel: 07711550366 - 07502478020
+                    Barzani Namir Road<br>
+                    Opposite Al Qassab Oil<br>
+                    Erbil, IRAQ<br>
+                    Tel: 07501303445
                 </p>
             </div>";
 
@@ -11673,6 +11673,7 @@ namespace online
                 easyHTMLReports1.AddString(itemsTableHTML); // Use the dynamically generated table
                 easyHTMLReports1.AddString(totalAmountHTML);
 
+
                 // Show or export the report
                 easyHTMLReports1.ShowPrintPreviewDialog();
                 ob.a(this.Controls);
@@ -11714,10 +11715,10 @@ namespace online
             <div style='text-align:left; margin-bottom: 20px;'>
                 <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
                 <p>
-                    Kalar Bazar<br>
-                    Talari M. Mahmoud, 3rd Floor<br>
-                    Sulaymaniyah, IRAQ<br>
-                    Tel: 07711550366 - 07502478020
+                   Barzani Namir Road<br>
+                    Opposite Al Qassab Oil<br>
+                    Erbil, IRAQ<br>
+                    Tel: 07501303445
                 </p>
             </div>";
 
@@ -11820,10 +11821,10 @@ namespace online
             <div style='text-align:left; margin-bottom: 20px;'>
                 <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
                 <p>
-                    Kalar Bazar<br>
-                    Talari M. Mahmoud, 3rd Floor<br>
-                    Sulaymaniyah, IRAQ<br>
-                    Tel: 07711550366 - 07502478020
+                   Barzani Namir Road<br>
+                    Opposite Al Qassab Oil<br>
+                    Erbil, IRAQ<br>
+                    Tel: 07501303445
                 </p>
             </div>";
 

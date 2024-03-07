@@ -40,8 +40,8 @@ namespace online
                dateTimePicker36.Visible = true;
                 dateTimePicker37.Visible = true;
                 pictureBox121.Visible = true;
-                ob.table(data29, "SELECT `ccid` as '#', `name` as 'ناو', format(`qarz`,2) as 'قەرز', format(`wargeraw`,2) as 'پارە دراو',format((qarz-wargeraw),2) as 'ماوە' FROM `qarz_customer`");
-                    ob.sum(label275, data29, 2);
+                ob.table(data29, "SELECT `ccid` as '#', `name` as 'ناو', format(`qarz`,2) as 'قەرز', format(`wargeraw`,2) as 'پارە دراو',format(`recive`,2) as 'پارە وەرگیراو',format(`send`,2) as 'پارە نێردراو',format((qarz-wargeraw+recive-send),2) as 'ماوە' FROM `qarz_customer`");
+                ob.sum(label275, data29, 2);
                 ob.sum(label1, data29, 3);
                 ob.sum(label3, data29, 4);
             }
@@ -265,8 +265,20 @@ namespace online
         private void pictureBox121_Click(object sender, EventArgs e)
         {
             ob.table(data29, "select `customer`.`cid` AS `#`,`customer`.`cname` AS `ناو`" +
-                           ",(      (select coalesce(sum(`sumprice`-mbrekar),0) from `new_system_online`.`froshtn_kart` where (`new_system_online`.`froshtn_kart`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))-(select coalesce(sum(`new_system_online`.`masrufatwakel`.`amount`),0) from `new_system_online`.`masrufatwakel` where `new_system_online`.`masrufatwakel`.`cid` = `new_system_online`.`customer`.`cid` and `new_system_online`.`masrufatwakel`.`state` = 'قبوڵکراو' and (`new_system_online`.`masrufatwakel`.dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))) " +
-                           "AS `قەرز`,(select coalesce(sum(`new_system_online`.`give_customer`.`qarzdinar`),0) from `new_system_online`.`give_customer` where (`new_system_online`.`give_customer`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "')) AS `پارە دراو`,(((select coalesce(sum(`sumprice`-mbrekar),0) from `new_system_online`.`froshtn_kart` where (`new_system_online`.`froshtn_kart`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))-(select coalesce(sum(`new_system_online`.`masrufatwakel`.`amount`),0) from `new_system_online`.`masrufatwakel` where `new_system_online`.`masrufatwakel`.`cid` = `new_system_online`.`customer`.`cid` and `new_system_online`.`masrufatwakel`.`state` = 'قبوڵکراو' and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "')))-(select coalesce(sum(`new_system_online`.`give_customer`.`qarzdinar`),0) from `new_system_online`.`give_customer` where (`new_system_online`.`give_customer`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))) as 'ماوە' from `new_system_online`.`customer`");
+                           ",(      (select coalesce(sum(`sumprice`-mbrekar),0) from `new_system_online`.`froshtn_kart` where (`new_system_online`.`froshtn_kart`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))" +
+                           "-(select coalesce(sum(`new_system_online`.`masrufatwakel`.`amount`),0) from `new_system_online`.`masrufatwakel` where `new_system_online`.`masrufatwakel`.`cid` = `new_system_online`.`customer`.`cid` and `new_system_online`.`masrufatwakel`.`state` = 'قبوڵکراو' and (`new_system_online`.`masrufatwakel`.dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))) " +
+                           "AS `قەرز`," +
+                           "(select coalesce(sum(`new_system_online`.`give_customer`.`qarzdinar`),0) from `new_system_online`.`give_customer` where (`new_system_online`.`give_customer`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "')) AS `پارە دراو`, " +
+                           "(select coalesce(sum(`new_system_online`.`exchange_balance`.`amount`),0) from `new_system_online`.`exchange_balance` where (`new_system_online`.`exchange_balance`.`cus` = `new_system_online`.`customer`.`cid`) and (barwar between '" + dateTimePicker36.Text +"' and '" + dateTimePicker37.Text + "')) AS `پارە وەرگیراو`," +
+                           "(select coalesce(sum(`new_system_online`.`exchange_balance`.`amount`),0) from `new_system_online`.`exchange_balance` where (`new_system_online`.`exchange_balance`.`kid` = `new_system_online`.`customer`.`cid`) and (barwar between '" + dateTimePicker36.Text +"' and '" + dateTimePicker37.Text + "')) AS `پارە نێردراو`," +
+                           "(" +
+                           "(" +
+                           "(select coalesce(sum(`sumprice`-mbrekar),0) from `new_system_online`.`froshtn_kart` where (`new_system_online`.`froshtn_kart`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))-(select coalesce(sum(`new_system_online`.`masrufatwakel`.`amount`),0) from `new_system_online`.`masrufatwakel` where `new_system_online`.`masrufatwakel`.`cid` = `new_system_online`.`customer`.`cid` and `new_system_online`.`masrufatwakel`.`state` = 'قبوڵکراو' and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "')))" +
+                           "-(select coalesce(sum(`new_system_online`.`give_customer`.`qarzdinar`),0) from `new_system_online`.`give_customer` where (`new_system_online`.`give_customer`.`cid` = `new_system_online`.`customer`.`cid`) and (dates between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))" +
+                           "+(select coalesce(sum(`new_system_online`.`exchange_balance`.`amount`),0) from `new_system_online`.`exchange_balance` where (`new_system_online`.`exchange_balance`.`cus` = `new_system_online`.`customer`.`cid`) and (barwar between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))" +
+                           "-(select coalesce(sum(`new_system_online`.`exchange_balance`.`amount`),0) from `new_system_online`.`exchange_balance` where (`new_system_online`.`exchange_balance`.`kid` = `new_system_online`.`customer`.`cid`) and (barwar between '" + dateTimePicker36.Text + "' and '" + dateTimePicker37.Text + "'))" +
+                           ") as 'ماوە'" +
+                           " from `new_system_online`.`customer`");
 
             ob.sum(label275, data29, 2);
             ob.sum(label1, data29, 3);

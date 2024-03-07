@@ -314,8 +314,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(dataGridView1, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label50.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label50.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -350,8 +350,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(dataGridView4, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label57.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label57.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -724,8 +724,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datadridview2, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label14.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label14.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -874,8 +874,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(dataGridView3, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label33.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label33.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -976,8 +976,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview5, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label35.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label35.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -1068,8 +1068,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview6, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label43.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label43.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -1324,8 +1324,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview8, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label51.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label51.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -1352,8 +1352,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview9, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label59.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label59.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -1655,10 +1655,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview10, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label69.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label71.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label69.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label71.Text + "</p>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
@@ -1810,8 +1810,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview11, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label78.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label78.Text + "</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -2239,10 +2239,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview13, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label91.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label86.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label91.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label86.Text + "</p>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
@@ -2470,8 +2470,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview14, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label106.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label106.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -2496,8 +2496,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview15, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label113.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label113.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -2566,27 +2566,27 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslgb.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
             easyHTMLReports1.AddString("</tr>");
 
 
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox1.Text + "</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brqarzbrekar.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox1.Text + "</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brqarzbrekar.Text + "</td>");
 
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + dateTimePicker6.Text + "</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + dateTimePicker6.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
 
 
             con.Close();
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzbrekar.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzbrekar.Text + "</td>");
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
 
@@ -2656,27 +2656,27 @@ namespace online
                     easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslgb.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
                     easyHTMLReports1.AddLineBreak();
                     easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-                    easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >Date</th>");
-                    easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>amount</th>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+                    easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >Date</th>");
+                    easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>amount</th>");
 
                     easyHTMLReports1.AddString("</tr>");
 
 
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox1.Text + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + dateTimePicker6.Text + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox1.Text + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + dateTimePicker6.Text + "</td>");
 
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzbrekar.Text + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzbrekar.Text + "</td>");
 
                     easyHTMLReports1.AddString("</tr>");
 
 
                     con.Close();
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=2>Total:</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzbrekar.Text + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=2>Total:</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzbrekar.Text + "</td>");
                     easyHTMLReports1.AddString("</tr>");
                     easyHTMLReports1.AddString("</table>");
 
@@ -2783,8 +2783,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview16, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label118.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label118.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -2822,27 +2822,27 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslfa.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
             easyHTMLReports1.AddString("</tr>");
 
 
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox2.Text + "</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brqarzcom.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox2.Text + "</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brqarzcom.Text + "</td>");
 
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + dateTimePicker11.Text + "</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + dateTimePicker11.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
 
 
             con.Close();
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzcom.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzcom.Text + "</td>");
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
 
@@ -2889,27 +2889,27 @@ namespace online
                     //easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslfa.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
                     //easyHTMLReports1.AddLineBreak();
                     //easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                    //easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    //easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-                    //easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-                    //easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+                    //easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    //easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+                    //easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+                    //easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
                     //easyHTMLReports1.AddString("</tr>");
 
 
-                    //easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                    //easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox2.Text + "</td>");
-                    //easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brqarzcom.Text + "</td>");
+                    //easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                    //easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + textBox2.Text + "</td>");
+                    //easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brqarzcom.Text + "</td>");
 
-                    //easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + dateTimePicker11.Text + "</td>");
+                    //easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + dateTimePicker11.Text + "</td>");
 
                     //easyHTMLReports1.AddString("</tr>");
 
 
                     //con.Close();
-                    //easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    //easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-                    //easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzcom.Text + "</td>");
+                    //easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    //easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+                    //easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brqarzcom.Text + "</td>");
                     //easyHTMLReports1.AddString("</tr>");
                     //easyHTMLReports1.AddString("</table>");
 
@@ -2968,8 +2968,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview17, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label136.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label136.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -3220,8 +3220,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview18, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label145.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label145.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -3277,8 +3277,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview19, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label153.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label153.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -3374,8 +3374,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview20, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label159.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label159.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -3531,13 +3531,13 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%; dir:ltr;'>");
 
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>حاڵەت</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>تێبینی</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>بەروار</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>عەدەد</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >کارت</th>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>#</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>حاڵەت</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>تێبینی</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>بەروار</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>عەدەد</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >کارت</th>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>#</th>");
 
 
 
@@ -3548,14 +3548,14 @@ namespace online
             for (int i = 0; i < datagridview21.Rows.Count - 1; i++)
             {
 
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[5].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridview21.Rows[i].Cells[4].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[5].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridview21.Rows[i].Cells[4].Value.ToString() + "</td>");
 
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[3].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[2].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[1].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + (i + 1) + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[3].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[2].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview21.Rows[i].Cells[1].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + (i + 1) + "</td>");
 
                 easyHTMLReports1.AddString("</tr>");
                 sm = sm + Convert.ToDouble(datagridview21.Rows[i].Cells[2].Value.ToString());
@@ -3563,8 +3563,8 @@ namespace online
             }
             easyHTMLReports1.AddString("</table>");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label167.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label167.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -3661,8 +3661,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview22, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label174.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label174.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -3988,10 +3988,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridview23, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label177.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label173.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label177.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label173.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -4310,40 +4310,40 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>#</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >number</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>price</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>sum price</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>From Date</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>To Date</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>ISP</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Invoice Number</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Note</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>#</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >number</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>price</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>sum price</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>From Date</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>To Date</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>ISP</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Invoice Number</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Note</th>");
             easyHTMLReports1.AddString("</tr>");
             double sm = 0;
             for (int i = 0; i < datagridbmp.Rows.Count - 1; i++)
             {
 
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[0].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridbmp.Rows[i].Cells[1].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[0].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridbmp.Rows[i].Cells[1].Value.ToString() + "</td>");
 
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridbmp.Rows[i].Cells[2].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridbmp.Rows[i].Cells[3].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[4].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[5].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[6].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[7].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[8].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridbmp.Rows[i].Cells[2].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridbmp.Rows[i].Cells[3].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[4].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[5].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[6].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[7].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[8].Value.ToString() + "</td>");
                 easyHTMLReports1.AddString("</tr>");
                 sm = sm + Convert.ToDouble(datagridbmp.Rows[i].Cells[3].Value.ToString());
 
             }
             easyHTMLReports1.AddString("</table>");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>$" + label204.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>$" + label204.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
 
 
             easyHTMLReports1.ShowPrintPreviewDialog();
@@ -4431,8 +4431,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(ispdataqarz, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label228.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label228.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -4496,27 +4496,27 @@ namespace online
                 easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslisp.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
                 easyHTMLReports1.AddLineBreak();
                 easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
                 easyHTMLReports1.AddString("</tr>");
 
 
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + noteispgive.Text + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brispgive.Text + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + noteispgive.Text + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brispgive.Text + "</td>");
 
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwarispgive.Text + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwarispgive.Text + "</td>");
 
                 easyHTMLReports1.AddString("</tr>");
 
 
                 con.Close();
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brispgive.Text + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brispgive.Text + "</td>");
                 easyHTMLReports1.AddString("</tr>");
                 easyHTMLReports1.AddString("</table>");
 
@@ -4592,27 +4592,27 @@ namespace online
                     easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslisp.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
                     easyHTMLReports1.AddLineBreak();
                     easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-                    easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-                    easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+                    easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+                    easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
                     easyHTMLReports1.AddString("</tr>");
 
 
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + noteispgive.Text + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brispgive.Text + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + noteispgive.Text + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + brispgive.Text + "</td>");
 
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwarispgive.Text + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwarispgive.Text + "</td>");
 
                     easyHTMLReports1.AddString("</tr>");
 
 
                     con.Close();
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brispgive.Text + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + brispgive.Text + "</td>");
                     easyHTMLReports1.AddString("</tr>");
                     easyHTMLReports1.AddString("</table>");
 
@@ -4725,8 +4725,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(givemoneisp, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label239.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label239.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -4882,10 +4882,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datagridcus, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label245.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label243.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label245.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label243.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -4924,13 +4924,13 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%; dir:ltr;'>");
 
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>حاڵەت</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>تێبینی</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>بەروار</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>عەدەد</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >ئامێر</th>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>#</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>حاڵەت</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>تێبینی</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>بەروار</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>عەدەد</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >ئامێر</th>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>#</th>");
 
 
 
@@ -4941,14 +4941,14 @@ namespace online
             for (int i = 0; i < datagridview12.Rows.Count - 1; i++)
             {
 
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[6].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridview12.Rows[i].Cells[4].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[6].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridview12.Rows[i].Cells[4].Value.ToString() + "</td>");
 
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[3].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[2].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[1].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + (i + 1) + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[3].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[2].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview12.Rows[i].Cells[1].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + (i + 1) + "</td>");
 
                 easyHTMLReports1.AddString("</tr>");
                 sm = sm + Convert.ToDouble(datagridview12.Rows[i].Cells[2].Value.ToString());
@@ -4956,8 +4956,8 @@ namespace online
             }
             easyHTMLReports1.AddString("</table>");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label87.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label87.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -5048,8 +5048,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(cusdataqarz, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label257.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label257.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -5112,27 +5112,27 @@ namespace online
                 easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslcus.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
                 easyHTMLReports1.AddLineBreak();
                 easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
                 easyHTMLReports1.AddString("</tr>");
 
 
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + notegivecus.Text + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + nrxgivecus.Text + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + notegivecus.Text + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + nrxgivecus.Text + "</td>");
 
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwargivcus.Text + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwargivcus.Text + "</td>");
 
                 easyHTMLReports1.AddString("</tr>");
 
 
                 con.Close();
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + nrxgivecus.Text + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + nrxgivecus.Text + "</td>");
                 easyHTMLReports1.AddString("</tr>");
                 easyHTMLReports1.AddString("</table>");
 
@@ -5184,27 +5184,27 @@ namespace online
                     easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslcus.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
                     easyHTMLReports1.AddLineBreak();
                     easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-                    easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-                    easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+                    easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+                    easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
 
                     easyHTMLReports1.AddString("</tr>");
 
 
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + notegivecus.Text + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + nrxgivecus.Text + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + notegivecus.Text + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >$" + nrxgivecus.Text + "</td>");
 
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwargivcus.Text + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + barwargivcus.Text + "</td>");
 
                     easyHTMLReports1.AddString("</tr>");
 
 
                     con.Close();
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + nrxgivecus.Text + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + nrxgivecus.Text + "</td>");
                     easyHTMLReports1.AddString("</tr>");
                     easyHTMLReports1.AddString("</table>");
 
@@ -5309,10 +5309,10 @@ namespace online
                     string itemsTableHTML = @"
             <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
                 <tr>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Month</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Month</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Paid</th>
                 </tr>";
                     int index = givemonecus.SelectedRows[0].Index;
                     string customer = givemonecus.Rows[index].Cells[3].Value.ToString();
@@ -5331,10 +5331,10 @@ namespace online
 
                             itemsTableHTML += $@"
                     <tr>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{note}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{date}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{receipt}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{note}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{date}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{receipt}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{formattedAmount}</td>
                     </tr>";
                         }
                     }
@@ -5482,10 +5482,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(data29, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label275.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label277.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label275.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label277.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -5594,19 +5594,19 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>" + DateTime.Now.ToString("yyyy/MM/dd") + "<br>User " + Form1.us + "</p>");
 
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%; direction=rtl'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>#</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>عەدەد</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>نرخ</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>کۆی نرخ</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>پارەی بریکار</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>ئەنجام</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >بەروار</th>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>جۆری کارت</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >کارتی وەرگیراو</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>#</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>عەدەد</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>نرخ</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>کۆی نرخ</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>پارەی بریکار</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>ئەنجام</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >بەروار</th>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: right;padding: 8px;'>جۆری کارت</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >کارتی وەرگیراو</th>");
 
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >کارتی کۆگا</th>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>تێبینی</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >کارتی کۆگا</th>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: right;padding: 8px;'>تێبینی</th>");
             easyHTMLReports1.AddString("</tr>");
 
             con.Open();
@@ -5621,53 +5621,53 @@ namespace online
             {
                 while (rdd.Read())
                 {
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
 
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + cou + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("num") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("price") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("sumprice") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("mbrekar") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("anjam") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("dates") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("ty") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("war") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + cou + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("num") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("price") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("sumprice") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("mbrekar") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("anjam") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("dates") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("ty") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("war") + "</td>");
 
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("koga") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("koga") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
                     easyHTMLReports1.AddString("</tr>");
                     cou++;
 
                 }
             }
             con.Close();
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی گشتی</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label286.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;' >");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی گشتی</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label286.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی نرخ</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label284.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی نرخ</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label284.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;'>کۆی مەسرەف</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label288.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;'>کۆی مەسرەف</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label288.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی کارتی وەرگیراو</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label157.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی کارتی وەرگیراو</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label157.Text + "</td>");
             easyHTMLReports1.AddString("</tr>");
 
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی پارەی وەرگیراو</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label292.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی پارەی وەرگیراو</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label292.Text + "</td>");
             easyHTMLReports1.AddString("</tr>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی قەرز</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label290.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی قەرز</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label290.Text + "</td>");
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
             easyHTMLReports1.AddLineBreak();
@@ -5904,19 +5904,19 @@ namespace online
                 easyHTMLReports1.AddLineBreak();
 
                 easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif; direction:rtl;font-size:14px; border-collapse: collapse;width: 100%;'>");
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>#</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >ناوی کارمەند</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>پلە</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>موچەی بنەڕەتی</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>ئەمانەت</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>پاداشت</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>سزا</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>کاتژمێری زیادە</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>قەرز دانەوە</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>موچەی کۆتای</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;width:70px;'>ئیمزا</th>");
-                easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>تێبینی</th>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>#</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >ناوی کارمەند</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>پلە</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>موچەی بنەڕەتی</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>ئەمانەت</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>پاداشت</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>سزا</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>کاتژمێری زیادە</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>قەرز دانەوە</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>موچەی کۆتای</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;width:70px;'>ئیمزا</th>");
+                easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>تێبینی</th>");
                 easyHTMLReports1.AddString("</tr>");
                 double sm = 0;
 
@@ -5927,19 +5927,19 @@ namespace online
                     {
                         break;
                     }
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;'>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:5px;text-align: left; color:white; font-size:14px;'>" + num + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:5px;text-align: left; color:white; font-size:14px;' >" + data31.Rows[j].Cells[1].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px; text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[2].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px; text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[3].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[4].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[5].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px; text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[6].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[7].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[8].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[9].Value.ToString() + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left;color:white; font-size:14px;width:70px;'></td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[11].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;'>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:5px;text-align: left; color:white; font-size:14px;'>" + num + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:5px;text-align: left; color:white; font-size:14px;' >" + data31.Rows[j].Cells[1].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px; text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[2].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px; text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[3].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[4].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[5].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px; text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[6].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[7].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[8].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[9].Value.ToString() + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left;color:white; font-size:14px;width:70px;'></td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:5px;text-align: left; color:white; font-size:14px;'>" + data31.Rows[j].Cells[11].Value.ToString() + "</td>");
                     easyHTMLReports1.AddString("</tr>");
                     sm = sm + Convert.ToDouble(data31.Rows[j].Cells[9].Value.ToString());
                     num++;
@@ -5947,8 +5947,8 @@ namespace online
                 }
                 easyHTMLReports1.AddString("</table>");
                 easyHTMLReports1.AddLineBreak();
-                easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-                easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + sm + "</p>");
+                easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+                easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + sm + "</p>");
                 easyHTMLReports1.AddLineBreak();
                 easyHTMLReports1.AddLineBreak();
                 easyHTMLReports1.AddLineBreak();
@@ -6206,8 +6206,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(data32, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>پێدانی قەرز</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label317.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>پێدانی قەرز</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label317.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -6314,13 +6314,13 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + dwasl.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br><br> </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >Days Month</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Days Work</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Quantity</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Unit Price</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Amount</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >Days Month</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Days Work</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Quantity</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Unit Price</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Amount</th>");
             easyHTMLReports1.AddString("</tr>");
 
             con.Open();
@@ -6342,14 +6342,14 @@ namespace online
                     formattedunitPrice = unitPrice.ToString("N0") + " IQD";
                     formattedamount = amount.ToString("N0") + " IQD";
                 }
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("dis") + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("daym") + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("dis") + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("daym") + "</td>");
 
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("days") + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("quantity") + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedunitPrice + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedamount + "</td>"); easyHTMLReports1.AddString("</tr>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("days") + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("quantity") + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedunitPrice + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedamount + "</td>"); easyHTMLReports1.AddString("</tr>");
                 sm += Convert.ToDouble(rdd.GetString("amount"));
             }
 
@@ -6360,15 +6360,15 @@ namespace online
                 sm *= conversionRate;
                  formattedTotal = RoundToNearestThreshold(sm).ToString("N0") + " IQD";
             }
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>" +  formattedTotal + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=5>Total:</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:white; font-size:14px;'>" +  formattedTotal + "</td>");
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
 
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + formattedTotal + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + formattedTotal + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -6631,26 +6631,26 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + materialSingleLineTextField31.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Device</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >Number</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Price</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Amount</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Received money</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Debt</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Date</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Device</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >Number</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Price</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Amount</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Received money</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Debt</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Date</th>");
             easyHTMLReports1.AddString("</tr>");
 
             for (int i = 0; i < datagridview13.Rows.Count - 1; i++)
             {
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview13.Rows[i].Cells[7].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridview13.Rows[i].Cells[2].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview13.Rows[i].Cells[1].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview13.Rows[i].Cells[3].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridview13.Rows[i].Cells[4].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridview13.Rows[i].Cells[5].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridview13.Rows[i].Cells[6].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview13.Rows[i].Cells[7].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + datagridview13.Rows[i].Cells[2].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview13.Rows[i].Cells[1].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridview13.Rows[i].Cells[3].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridview13.Rows[i].Cells[4].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridview13.Rows[i].Cells[5].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>$" + datagridview13.Rows[i].Cells[6].Value.ToString() + "</td>");
                 easyHTMLReports1.AddString("</tr>");
 
             }
@@ -6660,10 +6660,10 @@ namespace online
             easyHTMLReports1.AddString("</table>");
 
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>$" + label86.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label91.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Sum:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>$" + label86.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label91.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Sum:</p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -6703,27 +6703,27 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + waslkartp.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br>Your Ref# <br>Our Ref# <br> Credit Terms# <br> Salesperson  " + Form1.us + "<br> Job code </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>balance</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >Number</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Unit Price</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Amount</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Cash</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Debt</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>date</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>balance</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >Number</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Unit Price</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Amount</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Cash</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Debt</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>date</th>");
             easyHTMLReports1.AddString("</tr>");
 
             for (int i = 0; i < datagridbmp.Rows.Count - 1; i++)
             {
 
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[7].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[2].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[1].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[3].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[4].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[5].Value.ToString() + "</td>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[6].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[7].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[2].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[1].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[3].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[4].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[5].Value.ToString() + "</td>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + datagridbmp.Rows[i].Cells[6].Value.ToString() + "</td>");
                 easyHTMLReports1.AddString("</tr>");
 
             }
@@ -6731,10 +6731,10 @@ namespace online
             easyHTMLReports1.AddString("</table>");
 
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>$" + label173.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label177.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Sum:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>$" + label173.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label177.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Sum:</p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -7415,19 +7415,19 @@ namespace online
 
             //easyHTMLReports1.AddLineBreak();
             //easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            //easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            //easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>#</th>");
-            //easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >amount</th>");
-            //easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>company</th>");
+            //easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            //easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>#</th>");
+            //easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >amount</th>");
+            //easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>company</th>");
             //easyHTMLReports1.AddString("</tr>");
 
             //for (int i = 0; i < ispdataqarz.Rows.Count - 1; i++)
             //{
 
-            //    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-            //    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + ispdataqarz.Rows[i].Cells[0].Value.ToString() + "</td>");
-            //    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + ispdataqarz.Rows[i].Cells[1].Value.ToString() + "</td>");
-            //    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + ispdataqarz.Rows[i].Cells[2].Value.ToString() + "</td>");
+            //    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+            //    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + ispdataqarz.Rows[i].Cells[0].Value.ToString() + "</td>");
+            //    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + ispdataqarz.Rows[i].Cells[1].Value.ToString() + "</td>");
+            //    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + ispdataqarz.Rows[i].Cells[2].Value.ToString() + "</td>");
 
             //    easyHTMLReports1.AddString("</tr>");
 
@@ -7436,8 +7436,8 @@ namespace online
             //easyHTMLReports1.AddString("</table>");
 
             //easyHTMLReports1.AddLineBreak();
-            //easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>$" + label228.Text + "</p>");
-            //easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            //easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>$" + label228.Text + "</p>");
+            //easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
             //easyHTMLReports1.ShowPrintPreviewDialog();
             //ob.table(ispdataqarz, "SELECT `qicid` AS '#', `qarzdinar` AS 'برێ پارە', `dates` AS 'بەروار', ispcompany.name AS 'isp کۆمپانیای' FROM `qarz_isp_comp`,ispcompany where qarz_isp_comp.ic=ispcompany.ic");
             //ob.sum(label228, ispdataqarz, 1);
@@ -7520,10 +7520,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(data35, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label359.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label353.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label359.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label353.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -7778,8 +7778,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(data36, "style='width:100%;  direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label365.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label365.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -8133,8 +8133,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(datakartback, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label378.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label378.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -8198,8 +8198,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(dataamerback, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label385.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label385.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -8506,17 +8506,17 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView1, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label400.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label399.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label398.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label397.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label396.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label395.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label390.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label389.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label400.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label399.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label398.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label397.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label396.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label395.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label390.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label389.Text + "</p>");
 
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label388.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label387.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label388.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label387.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -8692,17 +8692,17 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView2, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label413.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label412.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label411.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label410.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label409.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label408.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label405.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label402.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label413.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label412.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label411.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label410.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label409.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label408.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label405.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label402.Text + "</p>");
 
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label394.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label393.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label394.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label393.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -9119,18 +9119,18 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView3, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label449.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label448.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label447.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label446.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label445.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label444.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label200.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label199.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label443.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label442.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + label198.Text + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label197.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label449.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label448.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label447.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label446.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label445.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label444.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label200.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label199.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label443.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label442.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + label198.Text + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label197.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -9169,8 +9169,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView4, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label454.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label454.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -9385,10 +9385,10 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView5, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label474.Text + "</p>");
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label469.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label474.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی نرخ</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>$" + label469.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -9668,17 +9668,17 @@ namespace online
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>" + DateTime.Now.ToString("yyyy/MM/dd") + "<br>User " + Form1.us + "</p>");
 
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%; direction=rtl'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>#</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>عەدەد</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>نرخ</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>کۆی نرخ</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >بەروار</th>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>جۆری ئامێر</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >ئامێری وەرگیراو</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >ئامێری ماوە</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >ئامێری کۆگا</th>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>تێبینی</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>#</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>عەدەد</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>نرخ</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;'>کۆی نرخ</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >بەروار</th>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: right;padding: 8px;'>جۆری ئامێر</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >ئامێری وەرگیراو</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >ئامێری ماوە</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: right;padding: 8px;' >ئامێری کۆگا</th>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: right;padding: 8px;'>تێبینی</th>");
             easyHTMLReports1.AddString("</tr>");
 
             con.Open();
@@ -9690,49 +9690,49 @@ namespace online
             {
                 while (rdd.Read())
                 {
-                    easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
+                    easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
 
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + cou + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("num") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("price") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("sumprice") + "</td>");
-                    easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("dates") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("ty") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("war") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("mawa") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("koga") + "</td>");
-                    easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + cou + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("num") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("price") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("sumprice") + "</td>");
+                    easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;' >" + rdd.GetString("dates") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("ty") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("war") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("mawa") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("koga") + "</td>");
+                    easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: right;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
                     easyHTMLReports1.AddString("</tr>");
                     cou++;
 
                 }
             }
             con.Close();
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;' >");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی گشتی</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label478.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;' >");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی گشتی</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label478.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی نرخ</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label459.Text + "</td>");
-
-            easyHTMLReports1.AddString("</tr>");
-
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی ئامێری وەرگیراو</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label196.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی نرخ</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label459.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
 
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی پارەی وەرگیراو</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label421.Text + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی ئامێری وەرگیراو</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label196.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: right;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی قەرز</td>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label361.Text + "</td>");
+
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی پارەی وەرگیراو</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label421.Text + "</td>");
+
+            easyHTMLReports1.AddString("</tr>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: right;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' >کۆی قەرز</td>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: right;padding: 8px; color:white; font-size:14px;' colspan=5>" + label361.Text + "</td>");
 
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
@@ -9968,8 +9968,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView7, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label493.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label493.Text + "</p>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
@@ -10229,8 +10229,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView8, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label506.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label506.Text + "</p>");
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
@@ -10314,8 +10314,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView9, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label515.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label515.Text + "</p>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
@@ -10416,8 +10416,8 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddDatagridView(advancedDataGridView10, "style='width:100%; direction:rtl;'");
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>" + label518.Text + "</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>کۆی گشتی</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>" + label518.Text + "</p>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
@@ -11379,16 +11379,16 @@ namespace online
             }
 
             con.Close();
-            easyHTMLReports1.AddString("<h2 align=right style='color:cyan; margin-top:-110px'><i>Invoice</i></h2>");
+            easyHTMLReports1.AddString("<h2 align=right style='color:cyan; margin-top:-80px'><i>Invoice</i></h2>");
             easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + walid.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br><br> </p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >Start Date</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>End Date</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Amount of internet</th>");
-            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Price</th>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid gray;text-align: left;padding: 8px;'>Description</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;' >Start Date</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>End Date</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Amount of internet</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid gray;text-align: left;padding: 8px;'>Price</th>");
             easyHTMLReports1.AddString("</tr>");
 
             con.Open();
@@ -11401,12 +11401,12 @@ namespace online
                 string formattedamount = amount.ToString("N0") + " IQD";
                 string startDate = DateTime.Parse(rdd.GetString("dates1")).ToString("yyyy/MM/dd");
                 string endDate = DateTime.Parse(rdd.GetString("dates")).ToString("yyyy/MM/dd");
-                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
-                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + startDate+ "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + endDate + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("nomb") + " Megabt" + "</td>");
-                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedamount + "</td>"); 
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid gray; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:black; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray; height:10px;text-align: left;padding: 8px; color:black; font-size:14px;' >" + startDate+ "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:black; font-size:14px;'>" + endDate + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px; text-align: left;padding: 8px; color:black; font-size:14px;'>" + rdd.GetString("nomb") + " Megabt" + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid gray;height:10px;text-align: left;padding: 8px; color:black; font-size:14px;'>" + formattedamount + "</td>"); 
                 easyHTMLReports1.AddString("</tr>");
                 sm += Convert.ToDouble(rdd.GetString("amount"));
             }
@@ -11414,15 +11414,15 @@ namespace online
             con.Close();
             string formattedTotal = formattedTotal = RoundToNearestThreshold(sm).ToString("N0") + " IQD";
             
-            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
-            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=4>Total:</td>");
-            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedTotal + "</td>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid gray;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid gray;text-align: left;padding: 8px; color:black; font-size:14px;' colspan=4>Total:</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid gray;text-align: left;padding: 8px; color:black; font-size:14px;'>" + formattedTotal + "</td>");
             easyHTMLReports1.AddString("</tr>");
             easyHTMLReports1.AddString("</table>");
 
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + formattedTotal + "</p>");
-            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            easyHTMLReports1.AddString("<p  style='border: 1px solid gray;text-align: left;padding: 8px; color:blue; float:right;'>" + formattedTotal + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid gray;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
@@ -11562,7 +11562,8 @@ namespace online
             }
             catch (Exception)
             {
-
+                messageboxfail obb = new messageboxfail();
+                obb.Show();
 
             }
         }
@@ -11624,10 +11625,10 @@ namespace online
                 string itemsTableHTML = @"
             <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
                 <tr>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Date</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Date</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Paid</th>
                 </tr>";
 
        
@@ -11635,10 +11636,10 @@ namespace online
 
                 itemsTableHTML += $@"
                     <tr>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{tebeneGivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{datesGivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{waslgivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{tebeneGivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{datesGivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{waslgivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{formattedAmount}</td>
                     </tr>";
 
 
@@ -11712,35 +11713,35 @@ namespace online
                     easyHTMLReports1.AddLineBreak();
                     // Company Header
                     string headerHTML = @"
-            <div style='text-align:left; margin-bottom: 20px;'>
-                <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
-                <p>
-                   Barzani Namir Road<br>
-                    Opposite Al Qassab Oil<br>
-                    Erbil, IRAQ<br>
-                    Tel: 07501303445
-                </p>
-            </div>";
+                    <div style='text-align:left; margin-bottom: 20px;'>
+                        <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
+                        <p>
+                           Barzani Namir Road<br>
+                            Opposite Al Qassab Oil<br>
+                            Erbil, IRAQ<br>
+                            Tel: 07501303445
+                        </p>
+                    </div>";
 
                     // Initialize items table HTML with headers
                     string itemsTableHTML = @"
-            <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
-                <tr>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Date</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
-                </tr>";
+                    <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
+                        <tr>
+                            <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Description</th>
+                            <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Date</th>
+                            <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Invoice</th>
+                            <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Paid</th>
+                        </tr>";
 
 
                     string formattedAmount = qarzGiveVip.Text + " IQD";
 
                     itemsTableHTML += $@"
                     <tr>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{tebeneGivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{datesGivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{waslgivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{tebeneGivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{datesGivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{waslgivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{formattedAmount}</td>
                     </tr>";
 
 
@@ -11764,9 +11765,9 @@ namespace online
                     double total = Convert.ToDouble(qarzGiveVip.Text);
                     string formattedTotal = total.ToString("N0") + " IQD";
                     string totalAmountHTML = $@"
-            <div style='text-align: right; margin-top: 20px;'>
-                <h2 style='color: cyan;'><strong>Total:</strong>{formattedTotal}</h2>
-            </div>";
+                        <div style='text-align: right; margin-top: 20px;'>
+                            <h2 style='color: cyan;'><strong>Total:</strong>{formattedTotal}</h2>
+                        </div>";
 
                     // Combine all parts
                     easyHTMLReports1.AddString(headerHTML);
@@ -11832,10 +11833,10 @@ namespace online
                     string itemsTableHTML = @"
             <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
                 <tr>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Date</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
-                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Date</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid gray; padding: 8px; text-align: left;'>Paid</th>
                 </tr>";
 
 
@@ -11843,10 +11844,10 @@ namespace online
 
                     itemsTableHTML += $@"
                     <tr>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{tebeneGivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{datesGivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{waslgivevip.Text}</td>
-                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{tebeneGivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{datesGivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{waslgivevip.Text}</td>
+                        <td style='border: 1px solid gray; padding: 8px;'>{formattedAmount}</td>
                     </tr>";
 
 
@@ -11999,6 +12000,41 @@ namespace online
                 ob.sum(label599, givevipData, 1);
                 }
             
+        }
+
+        private void vipData_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Delete)
+            {
+                try
+                {
+                    if (vipData.SelectedRows.Count != 0)
+                    {
+                        int i = vipData.SelectedRows[0].Index;
+                        int id = Convert.ToInt32(vipData.Rows[i].Cells[0].Value.ToString());
+
+                        if (MessageBox.Show("دڵنیای لەسڕینەوە؟", "سڕینەوە", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            ob.insert_del_up("call delete_vip_company('" + id + "')");
+                            ob.table(vipData, "call select_vip_company();");
+                            ob.count(label599, vipData, 0);
+                            ob.a(this.Controls);
+                        }
+                        else
+                        {
+                            ob.table(vipData, "call select_vip_company();");
+                            ob.count(label599, vipData, 0);
+                        }
+                        con.Close();
+                    }
+                }
+                catch (Exception)
+                {
+                    con.Close();
+
+                }
+
+            }
         }
     }
 }

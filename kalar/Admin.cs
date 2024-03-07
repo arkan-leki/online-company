@@ -11358,7 +11358,7 @@ namespace online
             easyHTMLReports1.Clear();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
-            easyHTMLReports1.AddString("<p >for information technology<br> electronic supplies <br> internet services</p>");
+            easyHTMLReports1.AddString("<p >For information technology<br> Electronic supplies <br> Internet services</p>");
 
             easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
             easyHTMLReports1.AddLineBreak();
@@ -11432,7 +11432,7 @@ namespace online
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
             easyHTMLReports1.AddLineBreak();
-            easyHTMLReports1.AddString("<h4 align=center style='font-size:14px;'>   Kalar Bazar - Talari M. Mahmoud -  3nd floor, Sulaymaniyah, IRAQ -    Tel: 07711550366 - 07502478020</h4>");
+            easyHTMLReports1.AddString("<h4 align=center style='font-size:14px;margin-top:120px'>   Online Company - Barzani Namir Road , Opposite Al Qassab Oil -  Erbil, IRAQ  -    Tel: 07501303445 </h4>");
 
             easyHTMLReports1.ShowPrintPreviewDialog();
 

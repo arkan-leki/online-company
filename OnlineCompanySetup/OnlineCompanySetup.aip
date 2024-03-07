@@ -79,10 +79,10 @@
     <ROW Property="AiEmbeddedUI" Value="1"/>
     <ROW Property="AiWinUI" Value="1"/>
     <ROW Property="Manufacturer" Value="Online Company"/>
-    <ROW Property="ProductCode" Value="1033:{B260C565-17B1-4F95-AEFB-775E16D908F4} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{71B17EAD-0286-4811-BA8C-6BB0BD2742EC} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Online Admin"/>
-    <ROW Property="ProductVersion" Value="2.3.5" Options="4"/>
+    <ROW Property="ProductVersion" Value="2.3.6" Options="4"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{1ECBA693-99E2-41E9-8A99-D8C6266E1DD7}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>

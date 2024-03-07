@@ -731,18 +731,7 @@ namespace online
             easyHTMLReports1.ShowPrintPreviewDialog();
         }
 
-
-
-
-
-
-
-        private void metroButton1_Click(object sender, EventArgs e)
-        {
-            materialTabControl1.SelectedIndex = 3;
-            ob.table(dataGridView3, "call select_isp();");
-            ob.count(label33, dataGridView3, 0);
-        }
+        
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
@@ -11305,6 +11294,710 @@ namespace online
         private void materialSingleLineTextField39_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void vipToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedIndex = 52;
+            ob.table(vipData, "call select_vip_company();");
+            ob.count(label570, vipData, 0);
+        }
+
+        private void pictureBox197_Click(object sender, EventArgs e)
+        {
+            ob.insert_del_up("call insert_vip_company('" + namevipcompany.Text + "','" + phonevipcompany.Text + "','" + addressvipcompany.Text + "')");
+            ob.table(vipData, "call select_vip_company();");
+            ob.count(label570, vipData, 0);
+            ob.a(this.Controls);
+            messageboxsuc obb = new messageboxsuc();
+            obb.Show();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedIndex = 52;
+            ob.table(vipData, "call select_vip_company();");
+            ob.count(label570, vipData, 0);
+        }
+
+        private void پێدانیمێگاToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedIndex = 53;
+            ob.comb(ccidinput, "SELECT * FROM vip_company", "ccid", "name");
+            ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+            ob.sum(label586, vipsellData, 2);
+            ob.sum(label588, vipsellData, 3);
+        }
+
+        private void pictureBox199_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("دڵنیای؟", "هەڵگرتن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+
+                double sump = Convert.ToDouble(sumpinput.Text);
+                double price = Convert.ToDouble(priceinput.Text);
+                double nomb = Convert.ToDouble(nombinput.Text);
+                ob.insert_del_up("INSERT INTO `vip_sell`(`nomb`, `price`, `sump`, `dates1`, `dates`, `ccid`, `wasl`, `tebene`) VALUES ('" + nomb + "','" + price + "','" + sump + "','" + dates1input.Text + "','" + datesinput.Text + "','" + ccidinput.SelectedValue.ToString() + "','" + waslinput.Text + "','" + tebeneinput.Text + "')");
+                ob.a(this.Controls);
+                ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+                ob.sum(label586, vipsellData, 2);
+                ob.sum(label588, vipsellData, 3);
+                messageboxsuc obb = new messageboxsuc();
+                obb.Show();
+            }
+        }
+
+        private void priceinput_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string currencySymbol = "IQD ";
+
+            easyHTMLReports1.Clear();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<h1 style='color:cyan;'>Online Company Ltd</h1>");
+            easyHTMLReports1.AddString("<p >for information technology<br> electronic supplies <br> internet services</p>");
+
+            easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top:-150px;'");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<h2>" + ccidinput.Text + "</h2>");
+            con.Open();
+            MySqlCommand md = new MySqlCommand("SELECT * FROM `vip_company` where ccid='" + ccidinput.SelectedValue.ToString() + "'", con);
+            MySqlDataReader rd = md.ExecuteReader();
+            while (rd.Read())
+            {
+                easyHTMLReports1.AddString("<p>Tel: " + rd.GetString("phone") + "</p>");
+
+            }
+
+            con.Close();
+            easyHTMLReports1.AddString("<h2 align=right style='color:cyan; margin-top:-110px'><i>Invoice</i></h2>");
+            easyHTMLReports1.AddString("<p align=right style='font-size:14px;'>Invoice No#   " + walid.Text + "<br>Date#  " + DateTime.Now.ToString("yyyy/MM/dd") + "<br><br> </p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<table style='font-family: arial, sans-serif;font-size:14px; border-collapse: collapse;width: 100%;'>");
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<th  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Description</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;' >Start Date</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>End Date</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Amount of internet</th>");
+            easyHTMLReports1.AddString("<th style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>Price</th>");
+            easyHTMLReports1.AddString("</tr>");
+
+            con.Open();
+            double sm = 0;
+            MySqlCommand mdd = new MySqlCommand("SELECT `mbids`, `wasl`, `tebene`, `dates1`, `dates`, `price`, `nomb`, Truncate(`sump`,2) as 'amount' FROM `vip_sell` where wasl='" + walid.Text + "'", con);
+            MySqlDataReader rdd = mdd.ExecuteReader();
+            while (rdd.Read())
+            {
+                double amount = Convert.ToDouble(rdd.GetString("amount"));
+                string formattedamount = amount.ToString("N0") + " IQD";
+                string startDate = DateTime.Parse(rdd.GetString("dates1")).ToString("yyyy/MM/dd");
+                string endDate = DateTime.Parse(rdd.GetString("dates")).ToString("yyyy/MM/dd");
+                easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd; text-align: left;padding: 8px;'>");
+                easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("tebene") + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd; height:10px;text-align: left;padding: 8px; color:white; font-size:14px;' >" + startDate+ "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + endDate + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px; text-align: left;padding: 8px; color:white; font-size:14px;'>" + rdd.GetString("nomb") + " Megabt" + "</td>");
+                easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;height:10px;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedamount + "</td>"); 
+                easyHTMLReports1.AddString("</tr>");
+                sm += Convert.ToDouble(rdd.GetString("amount"));
+            }
+
+            con.Close();
+            string formattedTotal = formattedTotal = RoundToNearestThreshold(sm).ToString("N0") + " IQD";
+            
+            easyHTMLReports1.AddString("<tr  style='border: 1px solid #dddddd;text-align: left;padding: 8px;'>");
+            easyHTMLReports1.AddString("<td  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;' colspan=4>Total:</td>");
+            easyHTMLReports1.AddString("<td style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:white; font-size:14px;'>" + formattedTotal + "</td>");
+            easyHTMLReports1.AddString("</tr>");
+            easyHTMLReports1.AddString("</table>");
+
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p  style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue; float:right;'>" + formattedTotal + "</p>");
+            easyHTMLReports1.AddString("<p style='border: 1px solid #dddddd;text-align: left;padding: 8px; color:blue;  float:right;'>Total:</p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>Dear Client <br>Please Proceed with the payment within 4 days<br>Online Company accept cash payment delivered to the Kalar Bazar-Sulaymaniyah,IRAQ </p>");
+            easyHTMLReports1.AddString("<p align=right style='font-size:14px;color:blue;'> Accountant / " + Form1.us + "<br> </p>");
+            easyHTMLReports1.AddString("<p style='opacity:4; color:transparent; font-size:12px;'>if you have any question concering this invoice please contact <br>096407729790070 – 096407512330605<br>acc@onlineco.net<br>PS:Transfer fees should not effect on the invoice amount</p>");
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddLineBreak();
+            easyHTMLReports1.AddString("<h4 align=center style='font-size:14px;'>   Kalar Bazar - Talari M. Mahmoud -  3nd floor, Sulaymaniyah, IRAQ -    Tel: 07711550366 - 07502478020</h4>");
+
+            easyHTMLReports1.ShowPrintPreviewDialog();
+
+
+        }
+
+        private void walid_TextChanged(object sender, EventArgs e)
+        {
+            if (walid.Text != "" && walid.Text != "0")
+            {
+
+                con.Close();
+                con.Open();
+                MySqlCommand md = new MySqlCommand("SELECT * FROM `vip_sell` where wasl='" + walid.Text + "'", con);
+                MySqlDataReader rd = md.ExecuteReader();
+                while (rd.Read())
+                {
+                    cuscom.SelectedValue = rd.GetString("ccid");
+
+                }
+                con.Close();
+                ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` and wasl='" + walid.Text + "' order by mbids desc");
+                ob.sum(label586, vipsellData, 2);
+                ob.sum(label588, vipsellData, 3);
+            }
+            else
+            {
+
+                ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا',DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+                ob.sum(label586, vipsellData, 2);
+                ob.sum(label588, vipsellData, 3);
+
+            }
+        }
+
+        private void vipsellData_SelectionChanged(object sender, EventArgs e)
+        {
+            ob.change_datagridview_combo(vipsellData, ccidinput, 6);
+            ob.change_datagridview_textfild(vipsellData, nombinput, 1);
+            ob.change_datagridview_textfild(vipsellData, priceinput, 2);
+            ob.change_datagridview_textfild(vipsellData, sumpinput, 3);
+            ob.change_datagridview_picker(vipsellData, dates1input, 4);
+            ob.change_datagridview_picker(vipsellData, datesinput, 5);
+            ob.change_datagridview_textfild(vipsellData, waslinput, 7);
+            ob.change_datagridview(vipsellData, tebeneinput, 8);
+        }
+
+        private void pictureBox198_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (vipsellData.SelectedRows.Count != 0)
+                {
+                    int i = vipsellData.SelectedRows[0].Index;
+                    int id = Convert.ToInt32(vipsellData.Rows[i].Cells[0].Value.ToString());
+                    double adad = Convert.ToDouble(vipsellData.Rows[i].Cells[1].Value.ToString());
+                    if (MessageBox.Show("دڵنیای لە گۆڕانکاری؟", "گۆڕانکاری", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        double sump = Convert.ToDouble(sumpinput.Text);
+                        double price = Convert.ToDouble(priceinput.Text);
+                        double nomb = Convert.ToDouble(nombinput.Text);
+
+                        ob.insert_del_up("UPDATE `vip_sell` SET `nomb`='" + nomb + "', `price`='" + price + "', `sump`='" + sump + "', `dates1`='" + dates1input.Text + "', `dates`='" + datesinput.Text + "', `ccid`='" + ccidinput.SelectedValue.ToString() + "', `wasl`='" + waslinput.Text + "', `tebene`='" + tebeneinput.Text + "' WHERE `mbids`='" + id + "'");
+
+                        ob.a(this.Controls);
+                        ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+                        ob.sum(label586, vipsellData, 2);
+                        ob.sum(label588, vipsellData, 3);
+
+                    }
+                    else
+                    {
+                        ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+                        ob.sum(label586, vipsellData, 2);
+                        ob.sum(label588, vipsellData, 3);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+        private void pictureBox200_Click(object sender, EventArgs e)
+        {
+            ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'نرخ', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` and dates1 between '" + dateTimePicker91.Text + "' and '" + dateTimePicker92.Text + "' order by mbids desc");
+            ob.sum(label586, vipsellData, 2);
+            ob.sum(label588, vipsellData, 3);
+        }
+
+        private void vipData_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (vipData.SelectedRows.Count != 0)
+                {
+                    int i = vipData.SelectedRows[0].Index;
+                    namevipcompany.Text = vipData.Rows[i].Cells[1].Value.ToString();
+                    phonevipcompany.Text = vipData.Rows[i].Cells[2].Value.ToString();
+                    addressvipcompany.Text = vipData.Rows[i].Cells[3].Value.ToString();
+                }
+            }
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+        private void pictureBox196_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (vipData.SelectedRows.Count != 0)
+                {
+                    int i = vipData.SelectedRows[0].Index;
+                    int id = Convert.ToInt32(vipData.Rows[i].Cells[0].Value.ToString());
+                    ob.insert_del_up("call update_vip_company('" + namevipcompany.Text + "','" + phonevipcompany.Text + "','" + addressvipcompany.Text + "','" + id + "')");
+                    ob.table(vipData, "call select_vip_company();");
+                    ob.count(label570, vipData, 0);
+                    ob.a(this.Controls);
+                    messageboxsuc obb = new messageboxsuc();
+                    obb.Show();
+                }
+            }
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+        private void پپارەوەرگرتنToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedIndex = 54;
+
+            ob.comb(vipcomp, "SELECT * FROM vip_company", "ccid", "name");
+            
+            ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+            ob.sum(label599, givevipData, 1);
+
+        }
+
+        private void datesgivevip_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox206_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("دڵنیای؟", "هەڵگرتن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                ob.insert_del_up("INSERT INTO `give_vip_company`(`qarzdinar`, `dates`, `cid`, `tebene`, `wasl`) VALUES ('" + qarzGiveVip.Text + "','" + datesGivevip.Text + "','" + vipcomp.SelectedValue.ToString() + "','" + tebeneGivevip.Text + "','" + waslgivevip.Text + "')");
+
+                ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+                ob.sum(label599, givevipData, 1);
+                messageboxsuc obb = new messageboxsuc();
+                obb.Show();
+
+
+                con.Open();
+                string customerPhone = "";
+                MySqlCommand md = new MySqlCommand("SELECT * FROM `vip_company` where ccid='" + vipcomp.SelectedValue.ToString() + "'", con);
+                MySqlDataReader rd = md.ExecuteReader();
+                while (rd.Read())
+                {
+                    customerPhone = rd.GetString("phone");
+
+                }
+
+                con.Close();
+                easyHTMLReports1.Clear();
+                easyHTMLReports1.AddLineBreak();
+                // Company Header
+                string headerHTML = @"
+            <div style='text-align:left; margin-bottom: 20px;'>
+                <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
+                <p>
+                    Kalar Bazar<br>
+                    Talari M. Mahmoud, 3rd Floor<br>
+                    Sulaymaniyah, IRAQ<br>
+                    Tel: 07711550366 - 07502478020
+                </p>
+            </div>";
+
+                // Initialize items table HTML with headers
+                string itemsTableHTML = @"
+            <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
+                <tr>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Date</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                </tr>";
+
+       
+                string formattedAmount = qarzGiveVip.Text + " IQD";
+
+                itemsTableHTML += $@"
+                    <tr>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{tebeneGivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{datesGivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{waslgivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                    </tr>";
+
+
+                // Close the table HTML
+                itemsTableHTML += "</table>";
+
+                // Assuming customer name and total amount remain constant for the whole receipt
+                // Add Receipt Title and Date
+                string titleAndDateHTML = $@"
+                   <div style='display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px;'>
+                       
+                        <div >
+                            <h2 style='color: cyan;'>Arrived Receipt</h2>
+                            <h4 style='color: #004A8F;'>Customer: {vipcomp.Text}</h4>
+                            <p>Tel: {customerPhone}</p>
+                        </div> 
+                    </div>
+                    ";
+
+                // Total Amount
+                double total = Convert.ToDouble(qarzGiveVip.Text);
+                string formattedTotal = total.ToString("N0") + " IQD";
+                string totalAmountHTML = $@"
+            <div style='text-align: right; margin-top: 20px;'>
+                <h2 style='color: cyan;'><strong>Total:</strong>{formattedTotal}</h2>
+            </div>";
+
+                // Combine all parts
+                easyHTMLReports1.AddString(headerHTML);
+                easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top: -160px; margin-right: 20px;'");
+                easyHTMLReports1.AddString(titleAndDateHTML);
+                easyHTMLReports1.AddString(itemsTableHTML); // Use the dynamically generated table
+                easyHTMLReports1.AddString(totalAmountHTML);
+
+                // Show or export the report
+                easyHTMLReports1.ShowPrintPreviewDialog();
+                ob.a(this.Controls);
+
+
+            }
+        }
+
+        private void givevipData_SelectionChanged(object sender, EventArgs e)
+        {
+            ob.change_datagridview_textfild(givevipData, qarzGiveVip, 1);
+            ob.change_datagridview_combo(givevipData, vipcomp, 3);
+            ob.change_datagridview_picker(givevipData, datesGivevip, 2);
+            ob.change_datagridview(givevipData, tebeneGivevip, 5);
+            ob.change_datagridview_textfild(givevipData, waslgivevip, 4);
+        }
+
+        private void pictureBox204_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (givevipData.SelectedRows.Count != 0)
+                {
+                    con.Open();
+                    string customerPhone = "";
+                    MySqlCommand md = new MySqlCommand("SELECT * FROM `vip_company` where ccid='" + vipcomp.SelectedValue.ToString() + "'", con);
+                    MySqlDataReader rd = md.ExecuteReader();
+                    while (rd.Read())
+                    {
+                        customerPhone = rd.GetString("phone");
+
+                    }
+
+                    con.Close();
+                    easyHTMLReports1.Clear();
+                    easyHTMLReports1.AddLineBreak();
+                    // Company Header
+                    string headerHTML = @"
+            <div style='text-align:left; margin-bottom: 20px;'>
+                <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
+                <p>
+                    Kalar Bazar<br>
+                    Talari M. Mahmoud, 3rd Floor<br>
+                    Sulaymaniyah, IRAQ<br>
+                    Tel: 07711550366 - 07502478020
+                </p>
+            </div>";
+
+                    // Initialize items table HTML with headers
+                    string itemsTableHTML = @"
+            <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
+                <tr>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Date</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                </tr>";
+
+
+                    string formattedAmount = qarzGiveVip.Text + " IQD";
+
+                    itemsTableHTML += $@"
+                    <tr>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{tebeneGivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{datesGivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{waslgivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                    </tr>";
+
+
+                    // Close the table HTML
+                    itemsTableHTML += "</table>";
+
+                    // Assuming customer name and total amount remain constant for the whole receipt
+                    // Add Receipt Title and Date
+                    string titleAndDateHTML = $@"
+                   <div style='display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px;'>
+                       
+                        <div >
+                            <h2 style='color: cyan;'>Arrived Receipt</h2>
+                            <h4 style='color: #004A8F;'>Customer: {vipcomp.Text}</h4>
+                            <p>Tel: {customerPhone}</p>
+                        </div> 
+                    </div>
+                    ";
+
+                    // Total Amount
+                    double total = Convert.ToDouble(qarzGiveVip.Text);
+                    string formattedTotal = total.ToString("N0") + " IQD";
+                    string totalAmountHTML = $@"
+            <div style='text-align: right; margin-top: 20px;'>
+                <h2 style='color: cyan;'><strong>Total:</strong>{formattedTotal}</h2>
+            </div>";
+
+                    // Combine all parts
+                    easyHTMLReports1.AddString(headerHTML);
+                    easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top: -160px; margin-right: 20px;'");
+                    easyHTMLReports1.AddString(titleAndDateHTML);
+                    easyHTMLReports1.AddString(itemsTableHTML); // Use the dynamically generated table
+                    easyHTMLReports1.AddString(totalAmountHTML);
+
+                    // Show or export the report
+                    easyHTMLReports1.ShowPrintPreviewDialog();
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void pictureBox205_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("دڵنیای؟", "هەڵگرتن", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                //try
+                //{
+                if (givevipData.SelectedRows.Count != 0)
+                {
+                    int i = givevipData.SelectedRows[0].Index;
+                    String id = givevipData.Rows[i].Cells[0].Value.ToString();
+                    ob.insert_del_up("UPDATE `give_vip_company` SET `qarzdinar`='" + Convert.ToDouble(qarzGiveVip.Text) + "',`dates`='" + datesGivevip.Text + "',`cid`='" + vipcomp.SelectedValue.ToString() + "',`tebene`='" + tebeneGivevip.Text + "',wasl='" + waslgivevip.Text + "' WHERE `qncid`='" + id + "'");
+
+                    ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+                    ob.sum(label599, givevipData, 1);
+                    messageboxsuc obb = new messageboxsuc();
+                    obb.Show();
+
+
+                    con.Open();
+                    string customerPhone = "";
+                    MySqlCommand md = new MySqlCommand("SELECT * FROM `vip_company` where ccid='" + vipcomp.SelectedValue.ToString() + "'", con);
+                    MySqlDataReader rd = md.ExecuteReader();
+                    while (rd.Read())
+                    {
+                        customerPhone = rd.GetString("phone");
+
+                    }
+
+                    con.Close();
+                    easyHTMLReports1.Clear();
+                    easyHTMLReports1.AddLineBreak();
+                    // Company Header
+                    string headerHTML = @"
+            <div style='text-align:left; margin-bottom: 20px;'>
+                <h1 style='color:  #004A8F;'>Online Company Ltd</h1>
+                <p>
+                    Kalar Bazar<br>
+                    Talari M. Mahmoud, 3rd Floor<br>
+                    Sulaymaniyah, IRAQ<br>
+                    Tel: 07711550366 - 07502478020
+                </p>
+            </div>";
+
+                    // Initialize items table HTML with headers
+                    string itemsTableHTML = @"
+            <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
+                <tr>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Description</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Date</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Invoice</th>
+                    <th style='border: 1px solid #dddddd; padding: 8px; text-align: left;'>Paid</th>
+                </tr>";
+
+
+                    string formattedAmount = qarzGiveVip.Text + " IQD";
+
+                    itemsTableHTML += $@"
+                    <tr>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{tebeneGivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{datesGivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{waslgivevip.Text}</td>
+                        <td style='border: 1px solid #dddddd; padding: 8px;'>{formattedAmount}</td>
+                    </tr>";
+
+
+                    // Close the table HTML
+                    itemsTableHTML += "</table>";
+
+                    // Assuming customer name and total amount remain constant for the whole receipt
+                    // Add Receipt Title and Date
+                    string titleAndDateHTML = $@"
+                   <div style='display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px;'>
+                       
+                        <div >
+                            <h2 style='color: cyan;'>Arrived Receipt</h2>
+                            <h4 style='color: #004A8F;'>Customer: {vipcomp.Text}</h4>
+                            <p>Tel: {customerPhone}</p>
+                        </div> 
+                    </div>
+                    ";
+
+                    // Total Amount
+                    double total = Convert.ToDouble(qarzGiveVip.Text);
+                    string formattedTotal = total.ToString("N0") + " IQD";
+                    string totalAmountHTML = $@"
+            <div style='text-align: right; margin-top: 20px;'>
+                <h2 style='color: cyan;'><strong>Total:</strong>{formattedTotal}</h2>
+            </div>";
+
+                    // Combine all parts
+                    easyHTMLReports1.AddString(headerHTML);
+                    easyHTMLReports1.AddImage(pictureBox1.Image, "width=150; style='float: right; margin-top: -160px; margin-right: 20px;'");
+                    easyHTMLReports1.AddString(titleAndDateHTML);
+                    easyHTMLReports1.AddString(itemsTableHTML); // Use the dynamically generated table
+                    easyHTMLReports1.AddString(totalAmountHTML);
+
+                    // Show or export the report
+                    easyHTMLReports1.ShowPrintPreviewDialog();
+                    ob.a(this.Controls);
+                }
+                //}
+                //catch (Exception)
+                //{
+
+
+                //}
+
+            }
+        }
+
+        private void givevipData_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Delete)
+            {
+                try
+                {
+                    if (givevipData.SelectedRows.Count != 0)
+                    {
+                        int i = givevipData.SelectedRows[0].Index;
+                        int id = Convert.ToInt32(givevipData.Rows[i].Cells[0].Value.ToString());
+
+                        if (MessageBox.Show("دڵنیای لەسڕینەوە؟", "سڕینەوە", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            ob.insert_del_up("DELETE FROM `give_vip_company` WHERE `qncid`='" + id + "'");
+                            ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+                            ob.sum(label599, givevipData, 1);
+
+                        }
+                        else
+                        {
+                            ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+                            ob.sum(label599, givevipData, 1);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+
+
+                }
+            }
+        }
+
+        private void vipsellData_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Delete)
+            {
+                try
+                {
+                    if (vipsellData.SelectedRows.Count != 0)
+                    {
+                        int i = vipsellData.SelectedRows[0].Index;
+                        int id = Convert.ToInt32(vipsellData.Rows[i].Cells[0].Value.ToString());
+                        double adad = Convert.ToDouble(vipsellData.Rows[i].Cells[1].Value.ToString());
+                        if (MessageBox.Show("دڵنیای لەسڕینەوە؟", "سڕینەوە", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            ob.insert_del_up("DELETE FROM `vip_sell` WHERE `mbids`='" + id + "'");
+                            ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+                            ob.sum(label586, vipsellData, 2);
+                            ob.sum(label588, vipsellData, 3);
+
+                        }
+                        else
+                        {
+                            ob.table(vipsellData, "SELECT `mbids` AS '#', `nomb` AS 'بڕی مێگا', Truncate(`price`,2) AS 'قازانج', Truncate(`sump`,2) AS 'کۆی نرخ', DATE_FORMAT(dates1, '%Y/%m/%d') AS 'بەرواری سەرەتا', DATE_FORMAT(dates, '%Y/%m/%d') AS 'بەرواری کۆتای', vip_company.`name` AS 'کۆمپانیا', wasl AS 'ژ.وەسڵ', tebene AS 'تێبینی' FROM `vip_sell`,vip_company where vip_sell.`ccid`=vip_company.`ccid` order by mbids desc");
+                            ob.sum(label586, vipsellData, 2);
+                            ob.sum(label588, vipsellData, 3);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+
+
+                }
+            }
+        }
+
+        private void pictureBox203_Click(object sender, EventArgs e)
+        {
+            ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە', DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid and give_vip_company.dates between '" + dateTimePicker89.Text + "' and '" + dateTimePicker90.Text + "'");
+            ob.sum(label599, givevipData, 1);
+        }
+
+        private void materialSingleLineTextField57_TextChanged(object sender, EventArgs e)
+        {
+            if (materialSingleLineTextField57.Text != "")
+            {
+                ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid and give_vip_company.`wasl` like '" + materialSingleLineTextField57.Text + "%'");
+                ob.sum(label599, givevipData, 1);
+            }
+            else
+            {
+                ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+                ob.sum(label599, givevipData, 1);
+            }
+        }
+
+        private void materialSingleLineTextField58_TextChanged(object sender, EventArgs e)
+        {
+
+                if (materialSingleLineTextField58.Text != "")
+                {
+
+                    ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid and vip_company.`name` like '" + materialSingleLineTextField58.Text + "%'");
+                    ob.sum(label599, givevipData, 1);
+                }
+                else
+                {
+
+                ob.table(givevipData, "SELECT give_vip_company.`qncid` AS '#', format(give_vip_company.`qarzdinar`,2) AS 'بڕی پارە',DATE_FORMAT(give_vip_company.dates, '%Y/%m/%d') AS 'بەروار', vip_company.`name` AS 'کۆمپانیا', give_vip_company.`wasl` AS 'ژ.وەسڵ', give_vip_company.`tebene` AS 'تێبینی' FROM `give_vip_company`,vip_company where give_vip_company.cid=vip_company.ccid");
+                ob.sum(label599, givevipData, 1);
+                }
+            
         }
     }
 }
